@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" href="https://djangoblogs3.s3.ap-south-1.amazonaws.com/default.jpg" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<style>
+  body {
+    overflow-x: hidden;
+    max-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .left-nav {
+    margin: 2rem;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    overflow-y: scroll;
+    font-family: 'Poppins', sans-serif;
+    }
+
+  .left-nav * {
+    padding: 0.5rem;
+  }
+
+  .cover-container {
+    width: 70% !important;
+    max-height: 100vh !important;
+    overflow-y: scroll;
+  }
+
+  .left-nav a {
+    border: 1px solid white;
+    border-radius: 2rem;
+    text-decoration: none;
+    color: white;
+    margin: 0.5rem;
+  }
+  .left-nav a:hover {
+    border: 1px solid black;
+    border-radius: 2rem;
+    text-decoration: none;
+    color: black;
+    background: white;
+    margin: 0.5rem;
+  }
+
+  .hero-img img {
+    margin-top: 15rem;
+    border-radius: 50%;
+    width: 100%;
+  }
+  .name{
+    font-weight: bold;
+  }
+</style>
+
+<body class="d-flex h-100 text-white bg-dark">
+  <div class="left-nav">
+
+    <div class="hero-img"><img src="../static/vit2.png" alt=""></div>
+    <div class="name">@Health Care CO Bot</div>
+    <!-- <a href="">About Us</a> -->
+    <a href="https://covidlocalstats.herokuapp.com/" target="_blank">Statistics</a>
+    <div class="profile-dsc">👋 Hello, I am CoBot<br>I'll bring you all the hospitals names where ever you want and also
+      some statistics about this pandemic</div>
+    <div class="info">These guys made me 😎
+      <ul class="members">
+        <li>Harshvardhan Shekhavat- 51</li>
+        <li>Arvind Shelke- 52</li>
+        <li>Madhuri Shelke- 53</li>
+        <li>Kshitij Shembalkar- 54</li>
+        <li>Purva Shendge- 55</li>
+      </ul>
+    </div>
+
+  </div>
+  <div class="
+        cover-container
+        text-center
+        d-flex
+        w-50
+        h-100
+        p-3
+        mx-auto
+        flex-column
+      ">
+    <header class="mb-auto text-center">
+      <div>
+        <h3 class="float-md-start mb-0">CoBot</h3>
+        <nav class="nav nav-masthead justify-content-center float-md-end">
+          <a class="nav-link active" aria-current="page" href="#"></a>
+        </nav>
+      </div>
+
+    </header>
+
+    <h1>Heathcare CoBot</h1>
+
+    <div class="container" style="max-width: fit-content;">
+      <div id="chatbox" class="border border-light border-top-0 border-bottom-0 p-3 mt-5">
+        <p class="botText"><span>Hi, I am your CoBot.</span></p>
+      </div>
+      <div id="userInput" class="mt-4">
+        <input id="textInput" type="text" name="msg" placeholder="Message" />
+        <input id="buttonInput" class="btn-sm btn-outline-danger" type="submit" value="Send" />
+      </div>
+
+
+      <script>
+        function getBotResponse() {
+          var rawText = $("#textInput").val();
+          var userHtml =
+            '<p class = "userText text-dark text-end"><span class="p-1 bg-light rounded">' +
+            rawText +
+            "</span></p>";
+          $("#textInput").val("");
+          $("#chatbox").append(userHtml);
+          document
+            .getElementById("userInput")
+            .scrollIntoView({
+              block: "start",
+              behaviour: "smooth"
+            });
+          $.get("/get", {
+            msg: rawText
+          }).done(function (data) {
+            var botHtml =
+              '<p class ="botText text-start"><img class="rounded" src="/static/anticovidbot.png" height="4%" width="4%" ><span class="m-1 btn disabled btn-primary  text-light">' +
+              data +
+              "</span></p>";
+            $("#chatbox").append(botHtml);
+            document
+              .getElementById("userInput")
+              .scrollIntoView({
+                block: "start",
+                behaviour: "smooth"
+              });
+          });
+        }
+        $("#textInput").keypress(function (e) {
+          if (e.which == 13) {
+            getBotResponse();
+          }
+        });
+        $("#buttonInput").click(function () {
+          getBotResponse();
+        });
+      </script>
+    </div>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,1978 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "pune_hospital",
+        "patterns":[ "hospitals in pune","pune hospitals","list of hospitals in pune"],
+        "responses":["Aundh –baner DCH\nJupiter hospital\nMedipoint Hospital\nBavdhan Medicare Centern\nCOEP Jumbo Hospital\nDalvi Hospital\nOyester and pearl Hospital\nLate Draupadibai Muralidhar Khedkar Hospital\nLate Muralidhar Laygude Hospital\nAnuja hospital\nKotbagi hospital Aundh\nshashwat hospital aundh\nsaksham Hospital\nDistrict Hospital aundh pune\nAIMS Hospital & Research center \nKotbagi Hospital Aundh\nSmt.Kashibai Navale medical college and general Hospital\nAura Multispeciality Hospital,Ambegaon\nBhakare Super Speciality Hospital & Research Institute\n Shwas Multispeciality Hospital\n Matoshree Hospital, Manchar", "Arogyam Hospital, Chakan\nJaihind Hospital Chakan\nRising Medicare Hospital\nShree Hospital & Trauma Center Pvt Ltd\nColumbia Asia Hospital Kharadi  , pune\nJeewan Jyot Multispeciality Medicare center\nTukaai multispeciality hospital\ndevyani multispeciality hospital\nGirija hospital\nKrishna hospital\nshashwat hosp,kothrud\nSurya Prabhu nursing home\nJeevandhara Multispeciality Hospital\nChintamani hospital-Bibwewadi\nBhakti Hospital Sanaswadi\nBhimashankar Hospital Manchar\nDr.Gujrati hospital\nManchar city Hospital\nMatoshree Hospital,Manchar\nsanjivani hospital machar\nshri vinayak hospital ,manchar\nSDH Manchar\nJaihind hospital chakan\nRH Chakan\nCitycare Hospital Chakan\nPawar Hospital Chakan\nsanjeevan hospital chakan\nChintamani Hospital saswad\nRH Saswad\nDhanvantrai Hospital Saswad\nSant Sopandev hospital saswad\nVishwaraj Hospital \nLotus Multispeciality hospital ,manjari , haveli\nNIXI ICU & Accident Hospital\nMedicare hospital\nNoble Hospital,pune\nPearl hospital \nRemedy hospital\nLate Ramchandra Bankar School CCC\nAdhar hospital\nApple multispeciality Hospital ,Chikhali\nChaudhari hospital, Chikhali\nMahesh smruti multispeciality hospital shewalwadi\nPulse hospital narhe\nDr Babasaheb Ambedkar Cantonment Gen Hospital\nKhadki cantonment hospital\nMilitary hospital khadki\nMetro Multispeciality Hospital & ICU \nVighnaharta Hospital,rahatani\nHarsh hospital\nLifeline hospital kondhwa\nNew Sofia clinic\nPrime multispecialty hospital\nRam Kruushna hospital\nPoona hospital\nJahangir hospital pune\nRuby Hall clinic\nNew Jijamata hospital\nCitycare Hospital pimpri\nGlobal Hospital \nGolden care hosp \nLifepoint hospital \nNRS Hospital \nVatsalya Children hosp \nRuby Hall clinic \nZP Covid Hospital \nbharati Hospital\nBharati Hospital(Ayurvedic)\nAnand hospital"],
+        "context_set":""
+        },
+        {"tag": "Aundh - baner DCH ",
+         "patterns": ["address of Aundh - baner DCH "],
+         "responses": [" Near post 91 hotel, adjacent SBI bank, baner rd"],
+         "context_set": ""
+        },
+        {"tag": "Jupiter Hospital",
+        "patterns": ["address of Jupiter"],
+        "responses": [" Near Bharatratna Dr Babasaheb Ambedkar Bridge, Baner Rd, Prathamesh Park, Pimple Nilakh, Pune, Maharashtra 411045"],
+         "context_set": ""
+        },
+        {"tag" : " Medipoint hospital",
+         "patterns": ["address of Medipoint"],
+         "responses": ["New DP rd aundh baner"],
+         "context_set": ""
+        },
+        {"tag":"Bavdhan Medicare Center",
+         "patterns": ["address of Bavdhan Medicare Center"],
+         "responses": ["plot no 9 sagar soc, bavdhan, pune "],
+         "context_set": ""
+        },
+
+        {"tag": "COEP Jumbo Hospital",
+         "patterns": ["address of  COEP Jumbo"],
+         "responses": ["Shivaji Nagar, Pune"],
+         "context_set": ""
+        },
+
+
+        {"tag":"Dalvi Hospital",
+         "patterns": ["address of Dalvi "],
+         "responses": ["Babulal Sheikth Path, Narveer Tanaji Wadi, Shivajinagar, Pune,"],
+         "context_set": ""
+        },
+
+
+        {"tag": "Late Draupadabai Muralidhar Khedekar Hospital",
+         "patterns": ["address of Late Draupadabai Muralidhar Khedekar"],
+         "responses": ["Bopodi, Pune"],
+         "context_set": ""
+        },
+
+
+        {"tag": "Late Muralidhar Pandurang Laygude Hospital",
+         "patterns": ["address of Late Muralidhar Pandurang Laygude"],
+         "responses": ["Dhayari"],
+         "context_set": ""
+        },
+
+
+        {"tag": "Anuja Hospital",
+         "patterns": ["address of Anuja"],
+         "responses": ["1st Floor, Chavan Mohite, Complex Chowk, Dhayari,Pune"],
+         "context_set": ""
+        },
+
+
+        {"tag": "Kotbagi Hospital Aundh",
+         "patterns": ["address of Kotbagi Aundh"],
+         "responses": ["163, DP Rd, Near DAV Public School, Harmony Society, Ward No. 8, Wireless Colony, Aundh"],
+         "context_set": ""
+        },
+
+
+        {"tag": "Shashwat Hospital,",
+         "patterns": ["address of Shashwat"],
+         "responses": ["Next To DAV School, Opposite Aundh Telephone Exchange, Baner DP Road, Aundh"],
+         "context_set": ""
+        },
+
+
+        {"tag": "Saksham Hospital, Thergaon",
+         "patterns": [ "address of Saksham Thergaon"],
+         "responses": ["Aundh ravet BRT Road, Near Sonai Mangal Karylay, Kaverinagr, sabway Therogan"],
+         "context_set": ""
+        },
+
+
+        {"tag": "District Hospital Aundh Pune",
+         "patterns": ["address of District Aundh "],
+         "responses": ["Pune"],
+         "context_set": ""
+        },
+
+
+        {"tag": "AIMS Hospital & Research Center",
+         "patterns": ["address of  AIMS  & Research Center"],
+         "responses": ["Survey No 154, AIMS Rd, Near AIMS Square, Aundh"],
+         "context_set": ""
+        },
+
+        {"tag": "Kotbagi Hospital Aundh",
+         "patterns": ["address of Kotbagi Aundh"],
+         "responses": ["163, DP Rd, Near DAV Public School, Harmony Society, Ward No. 8, Wireless Colony, Aundh"],
+         "context_set": ""
+        },
+
+        {"tag": "smt.Kashibai Navale medical collge and general Hospital",
+         "patterns": [ "address of smt.Kashibai Navale medical collge and general "],
+         "responses": ["S.No, 49/1, Mumbai Pune Bypass Rd, Narhe - ambegaon "],
+         "context_set": ""
+        },
+
+        {"tag": "Aura Multispeciality Hospital,Ambegaon",
+         "patterns": ["address of Aura Multispeciality ,Ambegaon"],
+         "responses": ["Fale Nagar, Near Reliance Mall, Dattanagar rd, Ambegaon BK"],
+         "context_set": ""
+        },
+
+        {"tag": "Bhakare Super Speciality Hospital & Research Institute",
+         "patterns": ["address of Bhakare Super Speciality "],
+         "responses": ["Bhakare Super Speciality Hospital And research Institute, Jambulwadi Rd, Datta Vihar, Dattanagar, Shani Nagar, Ambegaon BK"],
+         "context_set": ""
+        },
+
+        {"tag": "Shwas Multispeciality Hospital",
+         "patterns": ["address of Shwas Multispeciality "],
+         "responses": ["Shiv- Chhaya Complex, near sunbright school, tukaram nagar, ambegaon BK,"],
+         "context_set": ""
+        },
+
+        {"tag": "Matoshree Hospital, Manchar",
+         "patterns": ["address of Matoshree , Manchar"],
+         "responses": ["Manchar, Sai Complex, Pimpalgaon Phata, taluka Ambegaon"],
+         "context_set": ""
+        },
+
+        {"tag": "Arogyam Hospital, Chakan",
+         "patterns": ["address of Arogyam , Chakan"],
+         "responses": ["Chakan"],
+         "context_set": ""
+        },
+
+        {"tag": "Jaihind Hospital, Chakan",
+         "patterns": ["address of Jaihind , Chakan"],
+         "responses": ["Chakan"],
+         "context_set": ""
+        },
+        {"tag": "Rising Medicare Hospital",
+         "patterns": ["address of Rising Medicare "],
+         "responses": ["Survey No 4, Hissa No 1, Off, Mundhwa - Kharadi Rd, behind Radisson Blu, Kharadi"],
+         "context_set": ""
+        },
+        {"tag": "Shree Hospital Criticare & Trauma Center Pvt Ltd",
+         "patterns": ["address of Shree Criticare & Trauma Center Pvt Ltd"],
+         "responses": ["7/3B (part), Gulmohor Society, Kharadi"],
+         "context_set": ""
+        },
+
+        {"tag": "Columbia Asia Hospital Kharadi, Pune",
+         "patterns": ["Columbia Asia Kharadi, Pune"],
+         "responses": ["address of 22/2A, Near Nyati Empire Kharadi"],
+         "context_set": ""
+        },
+
+        {"tag": "JEEWAN JYOT MULTISPECIALITY MEDICARE CENCRE",
+         "patterns": ["address of JEEWAN JYOT MULTISPECIALITY MEDICARE CENCRE"],
+         "responses": ["SR.NO.43/1, PATHARE DHUBE NAGAR, NEAR VITHHAL MANDIR, KHARADI "],
+         "context_set": ""
+        },
+
+        {"tag": "Tukaai multispecility hospital",
+         "patterns": ["address of Tukaai multispecility "],
+         "responses": ["sr.no.45/5,plot no 31, eknath pathare wasti near datta mandir, kharadi"],
+         "context_set": ""
+        },
+
+        {"tag": "Devyani multispeciality Hospital",
+         "patterns": ["address of Devyani multispeciality "],
+         "responses": ["Plot No, 121, Lane Number 4, Dahanukar Colony, Kothrud,"],
+         "context_set": ""
+        },
+
+        {"tag": "GIRIJA HOSPITAL",
+         "patterns": ["address of GIRIJA "],
+         "responses": ["SR.NO.87,AAZADNAGAR, KOTHRUD"],
+         "context_set": ""
+        },
+
+        {"tag": "krishna hospital",
+         "patterns": ["krishna "],
+         "responses": ["address of 2,Anjanwel,prashant society, paud rd, kothrud"],
+         "context_set": ""
+        },
+
+
+
+        {"tag": "Shashwat Hosp, Kothrud",
+         "patterns": ["address of Shashwat  Kothrud"],
+         "responses": ["22, Happy Colony, Kothrud"],
+         "context_set": ""
+        },
+
+        {"tag": "Surya Prabha Nursing home",
+         "patterns": ["address of Surya Prabha Nursing home"],
+         "responses": ["ENT hospital, plot no 7, gujrat colony , paud rd kothrud"],
+         "context_set": ""
+        },
+
+        {"tag": "Jeevandhara Multispeciality Hospital",
+         "patterns": ["address of Jeevandhara Multispeciality"],
+         "responses": ["sr.no.84/2-D, first floor, bhagirathi square bldg, morebaugh, katraj chowk"],
+         "context_set": ""
+        },
+
+        {"tag": "Chintamani hospital- Bibwewadi",
+         "patterns": ["address of Chintamani  Bibwewadi"],
+         "responses": [" 53, Jedhe nagar, rajaram soc, Bibewadi"],
+         "context_set": ""
+        },
+
+        {"tag": "Bhakti Hospital Sanaswadi",
+         "patterns": ["address of Bhakti Sanaswadi"],
+         "responses": ["Sanaswadi"],
+         "context_set": ""
+        },
+
+        {"tag": "Bhimashankar Hospital Manchar",
+         "patterns": ["address of Bhimashankar Manchar"],
+         "responses": ["Manchar"],
+         "context_set": ""
+        },
+
+        {"tag": "Dr.Gujrati Hospital",
+         "patterns": ["address of Dr.Gujrati "],
+         "responses": ["Manchar"],
+         "context_set": ""
+        },
+
+        {"tag": "Manchar City Hospital",
+         "patterns": ["address of Manchar City "],
+         "responses": ["Manchar City"],
+         "context_set": ""
+        },
+
+        {"tag": "PAWAR HOSPITAL CHAKAN",
+         "patterns": ["address of PAWAR  CHAKAN"],
+         "responses": ["Chakan"],
+         "context_set": ""
+        },
+
+
+        {"tag": "Chintamani Hospital, Saswad",
+         "patterns": ["address of Chintamani , Saswad"],
+         "responses": ["Saswad"],
+         "context_set": ""
+        },
+
+        {"tag": "RH Saswad",
+         "patterns": ["address of RH Saswad"],
+         "responses": ["Saswad"],
+         "context_set": ""
+        },
+
+        {"tag": "DHANVANTARI HOSPITAL SASWAD",
+         "patterns": ["address of DHANVANTARI  SASWAD" ],
+         "responses": ["Saswad"],
+         "context_set": ""
+        },
+
+
+
+        {"tag": "Sant Sopandev Hospital, saswad",
+         "patterns": ["address of Sant Sopandev , saswad"],
+         "responses": ["saswad"],
+         "context_set": ""
+        },
+
+        {"tag": "Vishwaraj Hospital",
+         "patterns": ["address of Vishwaraj "],
+         "responses": ["Solapur Rd, Rajbaug, Loni Kalbhor"],
+         "context_set": ""
+        },
+
+        {"tag": "Lotus Multispeciality Hospital, Manjari, Haveli",
+         "patterns": ["address of Lotus Multispeciality , Manjari, Haveli"],
+         "responses": ["Manjari, Haveli"],
+         "context_set": ""
+        },
+
+        {"tag": "NIXI ICU & ACCIDENT HOSPITAL",
+         "patterns": ["address of NIXI ICU & ACCIDENT "],
+         "responses": ["HANDEWADI CHAUK HADPASAR ROAD"],
+         "context_set": ""
+        },
+
+        {"tag": "Medicare Hospital",
+         "patterns": ["address of Medicare "],
+         "responses": ["Near Amanora City, Opposite Suzlon Energy, Malwadi, Sadesatra Nali, Hadapsar"],
+         "context_set": ""
+        },
+
+
+        {"tag": "NOBLE HOSPITAL, PUNE",
+         "patterns": ["address of NOBLE "],
+         "responses": ["153, Road, Magarpatta, Hadapsar"],
+         "context_set": ""
+        },
+
+        {"tag": "Pearl hospital",
+         "patterns": ["address of Pearl "],
+         "responses": ["311 gandharvgeet sasane nagar , hadapsar"],
+         "context_set": ""
+        },
+
+        {"tag": "Remedy Hospital",
+         "patterns": ["address of Remedy "],
+         "responses": ["sr.no.228, ramanand complex, near janseva bank, hadapsar"],
+         "context_set": ""
+        },
+
+        {"tag": "Late Ramchandra Bankar School CCC",
+         "patterns": ["address of Late Ramchandra Bankar School CCC"],
+         "responses": ["Gondhale Nagar, Near Karkare garden, Hadapsar"],
+         "context_set": ""
+        },
+
+        {"tag": "Adhar hospital",
+         "patterns": ["address of Adhar "],
+         "responses": ["satav nagar, near green city, handewadi rd, hadapsar"],
+         "context_set": ""
+        },
+
+        {"tag": "Apple Multispeciality Hospital, Chikhali",
+         "patterns": ["address of Apple Multispeciality Chikhali"],
+         "responses": ["Navin Complex,Abave Buldhana urban Bank opp to Bus Stand, dehu Alandi road Chikhli Pune 62"],
+         "context_set": ""
+        },
+
+        {"tag": "Chaudhari Hopsital, Chikhali",
+         "patterns": ["address of Apple Multispeciality Chikhali"],
+         "responses": ["adhawwadi, Chikhali"],
+         "context_set": ""
+        },
+
+        {"tag": "MAHESH SMRUTI Multi Specialty HOSPITAL SHEWALWADI",
+         "patterns": ["address of MAHESH SMRUTI Multi Specialty  SHEWALWADI"],
+         "responses": ["SHEWALWADI PUNE"],
+         "context_set": ""
+        },
+        {"tag": "Pulse Hospital, Narhe, Pune",
+         "patterns": ["address of Pulse  Narhe"],
+         "responses": ["Narhe, Pune"],
+         "context_set": ""
+        },
+
+
+        {"tag": "Dr Babsaheb AMbedkar Cantonment Gen Hospital",
+         "patterns": ["address of Dr Babsaheb AMbedkar Cantonment Gen "],
+         "responses": [" Khadki"],
+         "context_set": ""
+        },
+
+
+        {"tag": "Khadki Contonment Hospital",
+         "patterns": ["address of Khadki Contonment "],
+         "responses": ["Khadki"],
+         "context_set": ""
+        },
+
+
+        {"tag": "Military Hospital Khadki",
+         "patterns": ["address of Military  Khadki"],
+         "responses": ["Khadki"],
+         "context_set": ""
+        },
+
+
+        {"tag": "Metro Multispeciality Hospital & ICU",
+         "patterns": ["address of Metro Multispeciality  & ICU"],
+         "responses": [" Next to Sitara Garden Suryoday Colony Nakhatewasti Rahatani"],
+         "context_set": ""
+        },
+
+
+        {"tag": "Vighnaharta Hospital,Rahatani",
+         "patterns": ["address of Vighnaharta ,Rahatani"],
+         "responses": ["Sr. No.42 Godambe Chowk Opp. Sterling Blooms Tapkir Mala Road Rahatani"],
+         "context_set": ""
+        },
+
+
+        {"tag": "Harsh Hospital",
+         "patterns": ["address of Harsh "],
+         "responses": [" A Commerical BLDG 3rd floor todkar garden bibwewadi kondhwa rd bibwewadi"],
+         "context_set": ""
+        },
+
+
+        {"tag": "llifeline hospital kondhwa",
+         "patterns": ["address of llifeline  kondhwa"],
+         "responses": [" Next to kausr baugh of NIBM rd, near suzuki showroom, kondhwa "],
+         "context_set": ""
+        },
+
+
+        {"tag": "New Sofia Clinic",
+         "patterns": ["address of New Sofia "],
+         "responses": ["city tower bldg, 1st floor,near suzuki showroom,kauser baugh kondhwa khurd"],
+         "context_set": ""
+        },
+
+
+        {"tag": "PRIME MULTISPECIALITY HOSPITAL",
+         "patterns": ["address of PRIME MULTISPECIALITY "],
+         "responses": ["Kondhwa"],
+         "context_set": ""
+        },
+
+        {"tag": "Ram Kruushna Hospital",
+         "patterns": ["address of Ram Kruushna "],
+         "responses": ["1536, Sadashiv Peth, Tilak rd"],
+         "context_set": ""
+        },
+
+
+        {"tag": "Poona Hospital",
+         "patterns": ["address of Poona "],
+         "responses": [" Shivam, 27, Shivram Matre Rd, Nr. Alka Talkies, Ganjwe Wadi, Sadashiv Peth"],
+         "context_set": ""
+        },
+
+        {"tag": "Jahangir Hospital Pune",
+         "patterns": ["address of Jahangir  Pune"],
+         "responses": ["32, Sasoon Road Opposite Railway Station, Central Excise Colony, Sangamvadi"],
+         "context_set": ""
+        },
+
+
+        {"tag": "RUBY HALL CLINIC",
+         "patterns": ["address of RUBY HALL "],
+         "responses": ["40, Sasoon Rd, Sangamvadi"],
+         "context_set": ""
+        },
+
+
+        {"tag": "New Jijamata Hospital",
+         "patterns": ["address of New Jijamata "],
+         "responses": [": Pimpri Gaon"],
+         "context_set": ""
+        },
+
+
+        {"tag": "CitiCare Hosp, Pimpri",
+         "patterns": ["address of CitiCare , Pimpri"],
+         "responses": ["Shubham Gallery Next to Croma pimpri 18"],
+         "context_set": ""
+        },
+
+
+        {"tag": "Global Hospital, Wakad",
+         "patterns": ["address of Global , Wakad"],
+         "responses": ["Pride Purple square, 2nd floor, Kalewadi Phata, Wakad"],
+         "context_set": ""
+        },
+
+
+        {"tag": "Golden Care Hosp, Wakad",
+         "patterns": ["address of Golden Care , Wakad"],
+         "responses": ["S.No. 117/3, Bhumkar wasti, Hinjwadi Raod, Wakad, Pune 57"],
+         "context_set": ""
+        },
+
+
+        {"tag": "Lifepoint Hospital, Wakad",
+         "patterns": ["address of Lifepoint , Wakad"],
+         "responses": ["No. 145, Sr, 1, Mumbai Pune Bypass Rd, near Sayaji Hotel, Wakad"],
+         "context_set": ""
+        },
+
+
+        {"tag": "NRS Hopsital, Wakad",
+         "patterns": ["address of NRS , Wakad"],
+         "responses": ["First Floor, Solitair Buisness Hub, Kalewadi Phata"],
+         "context_set": ""
+        },
+
+        {"tag": "Vatsalya Children Hosp, Dange Chowk",
+         "patterns": ["address of Vatsalya Children , Dange Chowk"],
+         "responses": [" Khinvsara Trade Centre Wakad Road Dange Chowk Thergaon"],
+         "context_set": ""
+        },
+
+
+        {"tag": "RUBY HALL CLINIC, Hinjawadi",
+         "patterns": ["address of RUBY HALL , Hinjawadi"],
+         "responses": [" Rajeev Gandhi Infotech Park, MIDC Phase No 1, Plot No, P-33, Hinjawadi"],
+         "context_set": ""
+        },
+
+        {"tag": "ZP Covid Hospital, Hinjewadi, Pune",
+         "patterns": ["address of ZP Covid , Hinjewadi, Pune"],
+         "responses": ["Hinjewadi, Pune"],
+         "context_set": ""
+        },
+
+
+        {"tag": "BHARATI HOSPITAL",
+         "patterns": ["address of BHARATI "],
+         "responses": ["Pune - Satara Rd, Bharati Vidyapeeth Campus, Dhankawadi,"],
+         "context_set": ""
+        },
+
+        {"tag": "Bharati Hospital ( Ayurvedic )",
+         "patterns": ["address of Bharati  ( Ayurvedic )"],
+         "responses": ["3, Bharati Vidyapeeth Campus, Dhankawadi, Pune"],
+         "context_set": ""
+        },
+
+        {"tag": "ANAND HOSP",
+         "patterns": ["address of ANAND "],
+         "responses": ["Pune Nasik Rd Bhosari, Bhosari, Pune - 411039, PMT Chowk"],
+         "context_set": ""
+        },
+        {"tag": "invalid instruction",
+         "patterns": ["address"],
+         "responses": ["Please mention the hospital name"],
+         "context_set": ""
+        },        
+        {"tag": "nashik_hospital",
+        "patterns":[ "hospital nashik","nashik hospital","list of hospitals in nashik"],
+        "responses":["24 * 7 Covid Care Center\nApex Super Specialty Hospital (Amrutdham )\nAshtang Hospital\nCare And Cure Covid Center\nCITRUS HOSPITAL\nCity Care Hospital\nDoc Katkade Hospital and Covid Center\nGalaxy Supreme Care hospital\nHarmony Hospital\nHCG Manavata Cancer Center ( Unit-2)\nHCG Manavta  hospital\nIcon Hospital\nKalpatru MultiSpecialty Hospital\nLeelavati Care Hospital\nMagnum Hospital (Dr. Chopada Hos.)\nManas Hospital (Cidco)\nMedicity Hospital\nNashik Rugnalay\nNashik Road Multispeciality Hospital\nNavSanjivani Hospital\nNew Aadhar Hospital\nNew Matrix Hospital\npanchavati Hospital\nParth Hospital\nRadiant plus Hospital (Nashik Road)\nSahjeevan Multi Speciality Hospital\nSai Samarth Hospital (Cidco)\nSai Sparsha Covid Hospital\nSai Swaraj Multispeciality Hospital\nSaiNath Multi Specialty Hospital\nSamarth Hospital (Cidco )\nShiv Ashirwad Covid Care Center\nShiv Covid Center\nShivkrupa Multi Speciality Hospital\nShree Siddhivinay Hospital(West)\nSix sigma hospital\nSomani Hospital\nSujata Birla Hospital & Research center\nSunrise Hospital\nSuper - tech Hospital\nSuyash Hospital\nSuyog Hospital\nSynergy Hospital\nVakratund hospital\nWellcare Hospital\nZenith Hospital\nApollo hospital\nAshoka hospital\nCivil hospital\nZakir Hussain NMC Hospital\n"],
+        "context_set":""
+        },
+        {"tag": "nashik_vaccine_centres",
+        "patterns":[ "vaccine centres nashik","nashik vaccine centres","list of vaccine centres in nashik"],
+        "responses":["JDC Bytco hospital\nIndira Gandhi Hospital\nNew Bytco Hospital\nDr. Zakir Hussain Hospital\nESIS Hospital\nIndian Red Cross Society\nMico Hospital\nJijamata Hospital\nSanjivani Hospital\nsant gadge maharaj hospital nashik\nSarthak Hospitals Private Limited, Nashik\nShree Swami Samarth Hospital\nAyush Hospital\nDr. Vasantrao Pawar Medical College,Hospital & Research Center\nHCG Manavata Cancer Centre, Nashik (Unit 2)\nLife Care Hospital\nSahyadri Super Speciality Hospital Nashik\nShah Hospital\nShatabdi Super Speciality Hospital\nShri Guruji Hospital\nSix Sigma Medicare Hospital\nSuyog Hospital\nWockhardt Hospital, Nashik\nLokmanya Hospital\nVakratunda Hospital Private Limited\nSushila Multispeciality Hospital\nApex Wellness Multispeciality Hospital\nSujata Birla Hospital & Medical Research Center\n"],
+        "context_set":""
+        },
+        {"tag": "24 * 7 Covid Care Center ",
+         "patterns": ["24 * 7 Covid Care Center "],
+         "responses": [" 24* 7 Covid care Center behind Canta Care Center bhabha Nagar Nashik"],
+         "context_set": ""
+        },
+        {"tag": "Apex Super Specialty Hospital (Amrutdham )",
+        "patterns": ["Apex Super Specialty Hospital (Amrutdham )"],
+        "responses": ["Near amrutdham Bus stop Mumbai Agra Highy way Nahsik"],
+         "context_set": ""
+        },
+        {"tag" : "Ashtang Hospital ",
+         "patterns": ["Ashtang Hospital"],
+         "responses": ["B Square 3rd Floor infront of Atul Sweets Upendra Nagar Nashik 10"],
+         "context_set": ""
+        },
+        {"tag":"Care And Cure Covid Center",
+         "patterns": ["Care And Cure Covid Center"],
+         "responses": ["2nd Floor Hari Bhakti Surana Hospital Datta Mandir Nashik Road"],
+         "context_set": ""
+        },
+        {"tag":"CITRUS HOSPITAL",
+         "patterns": ["CITRUS HOSPITAL"],
+         "responses": ["904, Mumbai aagra National Highway,Chetana Nagar Cidco, Nashik"],
+         "context_set": ""
+        },
+        {"tag":"City Care Hospital",
+         "patterns": ["City Care Hospital"],
+         "responses": ["Near Nasardi Bridge Nashik Puna Road Nashik"],
+         "context_set": ""
+        },
+        {"tag":"Doc Katkade Hospital and Covid Center",
+         "patterns": ["Doc Katkade Hospital and Covid Center"],
+         "responses": ["Flat no 9 Near Kulkarni Garden Sharanpur Road Nashik"],
+         "context_set": ""
+        },
+        {"tag":"Galaxy Supreme Care hospital",
+         "patterns": ["Galaxy Supreme Care hospital"],
+         "responses": ["Trimurti Chouk Cidco"],
+         "context_set": ""
+        },
+        {"tag":"Harmony Hospital",
+         "patterns": ["Harmony Hospital"],
+         "responses": ["Plot No.3 B Square in front of Atul Sweet Ambad Uttam Nagar Road Mahajan Nagar Ambad"],
+         "context_set": ""
+        },
+        {"tag":"HCG Manavata Cancer Center ( Unit-2)",
+         "patterns": ["HCG Manavata Cancer Center ( Unit-2)"],
+         "responses": ["Unit-2, Nr. Mylan Circle, Mumbai Naka , Nashik"],
+         "context_set": ""
+        },
+        {"tag":"HCG Manavta  hospital",
+         "patterns": ["HCG Manavta  hospital"],
+         "responses": ["HCG Manavta Cancer Center, Mumbai naka"],
+         "context_set": ""
+        },
+        {"tag":"Icon Hospital",
+         "patterns": ["Icon Hospital"],
+         "responses": ["2nd Floor Laxmi Balwant Sankul Above Sachin Hotel Near Kanya Kothari School jail Road Nashik Road"],
+         "context_set": ""
+        },
+        {"tag":"Kalpatru MultiSpecialty Hospital",
+         "patterns": ["Kalpatru MultiSpecialty Hospital"],
+         "responses": ["Roongth Shopping Mall Burkule Hall Cidco Nasik"],
+         "context_set": ""
+        },
+        {"tag":"Leelavati Care Hospital",
+         "patterns": ["Leelavati Care Hospital"],
+         "responses": ["Near Big Bazzar Collage Road Nashik"],
+         "context_set": ""
+        },
+        {"tag":"Magnum Hospital (Dr. Chopada Hos.)",
+         "patterns": ["Magnum Hospital (Dr. Chopada Hos.)"],
+         "responses": ["Chopada Medicare & Resarch Center Pvt. Ltd., & Hospital, Patil Lane No. 1, Candacorner, Nashik"],
+         "context_set": ""
+        },
+        {"tag":"Manas Hospital (Cidco)",
+         "patterns": ["Manas Hospital (Cidco)"],
+         "responses": ["35,guru govind singh college xhyaa mage pandav nagari Nashik"],
+         "context_set": ""
+        },
+        {"tag":"Medicity Hospital",
+         "patterns": ["Medicity Hospital"],
+         "responses": ["Near Vidya Vikas Circle, Bhavik Ngr., Gangapur Road, Nashik"],
+         "context_set": ""
+        },
+        {"tag":"Nashik Rugnalay",
+         "patterns": [":Nashik Rugnalay"],
+         "responses": ["Second Floor Dr house bhabha Nagar mumbai angra road"],
+         "context_set": ""
+        },
+        {"tag":"Nashik Road Multispeciality Hospital",
+         "patterns": ["Nashik Road Multispeciality Hospital"],
+         "responses": ["1st Floor, Shangalila, Near Somani Garden, Nashik Road, Nashik"],
+         "context_set": ""
+        },
+        {"tag":"NavSanjivani Hospital",
+         "patterns": ["NavSanjivani Hospital"],
+         "responses": ["8, Motkari Nagar, Nr Tupsakhare Lawns, Tidke Colony, Nashik"],
+         "context_set": ""
+        },
+        {"tag":"New Aadhar Hospital",
+         "patterns": ["New Aadhar Hospital"],
+         "responses": ["First Floor Near Mahila Bank wadala Naka Dwarka Nashik"],
+         "context_set": ""
+        },
+        {"tag":"New Matrix Hospital",
+         "patterns": ["New Matrix Hospital"],
+         "responses": ["Ajij Memon,Near Sainath Ngr Signal, Indira Nagar, Nashik"],
+         "context_set": ""
+        },
+        {"tag":"panchavati Hospital",
+         "patterns": ["panchavati Hospital"],
+         "responses": ["Vijay Towers Canda Cornar Sharanpur Road"],
+         "context_set": ""
+        },
+        {"tag":"Parth Hospital",
+         "patterns": ["Parth Hospital"],
+         "responses": ["Parth Covid Center Burkule Hall Uttam Nagar Nashik"],
+         "context_set": ""
+        },
+        {"tag":"Radiant plus Hospital (Nashik Road)",
+         "patterns": ["Radiant plus Hospital (Nashik Road)"],
+         "responses": ["Reddaint Pluse Hospital Star Pluse Mall 5th Floor Lam Road Near Muktidham Temple Nashik Road"],
+         "context_set": ""
+        },
+        {"tag":"Sahjeevan Multi Speciality Hospital",
+         "patterns": ["Sahjeevan Multi Speciality Hospital"],
+         "responses": ["ASI - 57 Sahyadri Nagar Near Cidco Telecome Exchange New Nashik"],
+         "context_set": ""
+        },
+        {"tag":"Sai Samarth Hospital (Cidco)",
+         "patterns": ["Sai Samarth Hospital (Cidco)"],
+         "responses": ["Sai Samrath hospial morwadi Cidco Nashik"],
+         "context_set": ""
+        },
+        {"tag":"Sai Sparsha Covid Hospital",
+         "patterns": ["Sai Sparsha Covid Hospital"],
+         "responses": ["In Front of kulkarni Garden Sharanpur Road Nashik"],
+         "context_set": ""
+        },
+        {"tag":"Sai Swaraj Multispeciality Hospital",
+         "patterns": ["Sai Swaraj Multispeciality Hospital"],
+         "responses": ["Shop no. 1 to 4 Surya Complex Near Ganpati Mandir Jadhav Sankul Satpur Ambad Link road Chunchale Shivar"],
+         "context_set": ""
+        },
+        {"tag":"SaiNath Multi Specialty Hospital",
+         "patterns": ["SaiNath Multi Specialty Hospital"],
+         "responses": ["Infront of Ashok Nagar Police station ashok Nagar Satpur Nashik"],
+         "context_set": ""
+        },
+        {"tag":"Samarth Hospital (Cidco )",
+         "patterns": ["Samarth Hospital (Cidco )"],
+         "responses": ["Nilanjan Complex, Pathardi Road, Pathardi Phata, Nashik 10"],
+         "context_set": ""
+        },
+        {"tag":"Shiv Ashirwad Covid Care Center",
+         "patterns": ["Shiv Ashirwad Covid Care Center"],
+         "responses": ["Plot no 31 opp to S.S.K World Pathardi Gavlane Road Pathardi Nashik"],
+         "context_set": ""
+        },
+        {"tag":"Shiv Covid Center",
+         "patterns": ["Shiv Covid Center"],
+         "responses": ["Shiv Covid Care Center Aatmvishawas Soci. Wadala Pathardi Road Indira Nagar Nashik."],
+         "context_set": ""
+        },
+        {"tag":"Shivkrupa Multi Speciality Hospital",
+         "patterns": ["Shivkrupa Multi Speciality Hospital"],
+         "responses": ["2nd floor , Patel Arcade Dindori Road Panchavati Nashik"],
+         "context_set": ""
+        },
+        {"tag":"Shree Siddhivinay Hospital(West)",
+         "patterns": ["Shree Siddhivinay Hospital(West)"],
+         "responses": ["In front of KTHM College, Gangapur Road, NashikName:- Shree Siddhivinayak Hospital"],
+         "context_set": ""
+        },
+        {"tag":"Six sigma hospital",
+         "patterns": ["Six sigma hospital"],
+         "responses": ["Sigh Sigma Medicare & Resarch Center, Mahatamanagar,Nashik"],
+         "context_set": ""
+        },
+        {"tag":"Somani Hospital",
+         "patterns": ["Somani Hospital"],
+         "responses": ["4, MIG Enclave, State Bank Stop, CIDCO, Nashik"],
+         "context_set": ""
+        },
+        {"tag":"Sujata Birla Hospital & Research center",
+         "patterns": ["Sujata Birla Hospital & Research center"],
+         "responses": ["Opp. Bytco college, Nashik road, Nashik"],
+         "context_set": ""
+        },
+        {"tag":"Sunrise Hospital",
+         "patterns": ["Sunrise Hospital"],
+         "responses": ["3rd Floor, Suyojit Modern Point , Above Kalakruti Sarees, Sharanpur Road, Nashik"],
+         "context_set": ""
+        },
+        {"tag":"Super - tech Hospital",
+         "patterns": ["Super - tech Hospital"],
+         "responses": ["Om Nagar Walzade Arcade Pancahvati Nashik"],
+         "context_set": ""
+        },
+        {"tag":"Suyash Hospital",
+         "patterns": ["Suyash Hospital"],
+         "responses": [":- Suyash Medical Foundation Suyash Hospital Mumbai Naka Nashik"],
+         "context_set": ""
+        },
+        {"tag":"Suyog Hospital",
+         "patterns": ["Suyog Hospital"],
+         "responses": ["2nd Floor, B-Wing, Krushi Utpanna Bazar, Samiti Sankul, Dindori Rd, Panchavati, Nashik, Maharashtra 422003"],
+         "context_set": ""
+        },
+        {"tag":"Synergy Hospital",
+         "patterns": ["Synergy Hospital"],
+         "responses": ["Waghulde plaza Gita Nagar Bus stop Mhasrul Nashik"],
+         "context_set": ""
+        },
+        {"tag":"Vakratund hospital",
+         "patterns": ["Vakratund hospital"],
+         "responses": ["Vakratund Multispacality Hospital, Navale Nagar, Pathardi Fhata,Nashik"],
+         "context_set": ""
+        },
+        {"tag":"Wellcare Hospital",
+         "patterns": ["Wellcare Hospital"],
+         "responses": ["Wellcare Hospital, Shree Hari Kute Marge, Near Baba Darga, Tidke Colony, Nashik"],
+         "context_set": ""
+        },
+        {"tag":"Zenith Hospital",
+         "patterns": ["Zenith Hospital"],
+         "responses": ["Suchita Nagar, Opposite Indira Nagar Jogging Track, Nashik"],
+         "context_set": ""
+        },
+        {"tag":"Apollo hospital",
+         "patterns": ["Apollo hospital"],
+         "responses": ["Apolo Hospital Swami Narayan Nagar, Aurangabad Road Panchavti Nashik"],
+         "context_set": ""
+        },
+        {"tag":"Ashoka hospital",
+         "patterns": ["Ashoka hospital"],
+         "responses": ["Sahrudaya Health care Pvt. Ltd., Ashoka Medic over Hospital, 113/2, A Plot No. 2,I.T. Park, Vadala,Nashik-9"],
+         "context_set": ""
+        },
+        {"tag":"Civil hospital",
+         "patterns": ["Civil hospital"],
+         "responses": ["Opposite Golf Club Trimbak Road Nashik"],
+         "context_set": ""
+        },
+        {"tag":"Zakir Hussain NMC Hospital",
+         "patterns": ["Zakir Hussain NMC Hospital"],
+         "responses": ["Kathada, Nashik"],
+         "context_set": ""
+        },
+        {"tag":"SamajKalyan Covid Care Center",
+         "patterns": ["SamajKalyan Covid Care Center"],
+         "responses": ["Samajik Nyay Sankul, Nashik-Pune Road, near Nasardi Bridge, Nashik, Maharashtra 422011"],
+         "context_set": ""
+        },
+        {"tag":"Dr Chavan Hospital (Panchavati )",
+         "patterns": ["Dr Chavan Hospital (Panchavati )"],
+         "responses": ["Shop no 3,4 Eknath Residency Rajlaxmi Bank Samor Damodhar road Hirawadui road Panchavati Nashik 422003"],
+         "context_set": ""
+        },
+        {"tag":"Dr.Khare Hospital",
+         "patterns": ["Dr.Khare Hospital"],
+         "responses": ["Plot No 5, Near Samarth Gokuldham, Lete Nagar, Near Amrutdham, Nashik"],
+         "context_set": ""
+        },
+                {"tag":"Indorewala Hospital",
+         "patterns": ["Indorewala Hospital"],
+         "responses": ["Behind Mahamarg Bus Stand, Old Mumbai Naka, Gaikwad Nagar, Nashik, Maharashtra 422002"],
+         "context_set": ""
+        },
+        {"tag": "mumbai_hospital",
+        "patterns":[ "hospitals in mumbai", "mumbai"],
+        "responses":["ESI Mahatma Gandhi Memorial Hospital\nKing Edward Memorial Hospital and Seth Gordhandas Sunderdas Medical College\nBai Jerbai Wadia Hospital\nGroup of Tuberculosis Hospitals\nNaigaon Municipal Maternity Home\nMumbai Port Trust Hospital\nAcworth Municipal Hospital \nGalaxy multispecialty hospital\nSHUSHRUSHA CITIZENS' CO-OPERATIVE HOSPITAL LTD\nJyoti Nursing Home\nMaa Medicals\nHinduja Hospital OPD Building\nP. D. Hinduja National Hospital & Medical Research Centre\nRaoli Camp Municipal Maternity Home\nSion Hospital\nPrabhat Maternity & Surgical Nursing Home\nShri Sai hospital\nShiv Polyclinc & Nursing Home\nShiv Polyclinc & Nursing Home\nS L Raheja Hospital\nLifecare Hospital\nK. J. Somaiya College of Physiotherapy\nPandit Madan Mohan Malviya Shatabdi Municipal General Hospital\nSitla Hospital\nAshirwad Hospital, Blessing For Life\nSurana Sethia Hospital\nLilavati Hospital And Research Centre\nSwastik Hospital And Research Centre\nL. C. Manek Poly Clinic\nJoy Hospital\nSubham Hospital & Intensive Care Unit\nHoly Family Multispeciality Hospital Bandra\nBhabha Hospital\nGuru Nanak Hospital\nKolekar Hospital & ICCU\nAryan Hospital & Medical Centre\nShivam Nursing Home\nSRV Hospital Chembur\nBkc jumbo phase 2\nDurga Nursing Home\nK J Somaiya Institute of Management\nChildren heart centre Bai jerbai Wadia Hospital for Children Parel\nNHSrcc Hospital mumbai\nbhatia hospital tadtev\nKohinoor Hospital\nNoor Hospital\nRamakrishna Mission Hospital\nNiron Hospital\nHabib Hospital\nRajawadi Hospital\nFauziya Hospital\nSona Maternity And Surgical Nursing Home\nDattatreya Nursing Home\nVarun Cardiac Clinic\nH. J. Doshi Ghatkopar Hindu Sabha Hospital\nSarla Hospital & ICU\nSonagra Medical & Surgical Center\nZynova Shalby Hospital\nShanti Nursing Home\nPasaydan Hospital And Trust\nSai Ganesh SRA CHS Ltd\nNanavati Super Speciality Hospital\nParamount General Hospital & ICCU\nShirodkar Hospital\nGodrej Memorial Hospital\nKLS Memorial Hospital\nSeven Hills Hospital\nHashir Hospital & ICU\nShakuntala Nursing Home\nHBT Medical College And Dr. R N Cooper Municipal General Hospital\nGoel Hospital\nAdvanced Multispeciality Hospital\nSurya Hospital\nShushrusha Hospital\nCriti Care Multi Speciality Hospital\nSanjeevani hospital\nSeven Hills Hospital\nHashir Hospital & ICU\nShakuntala Nursing Home\nBSES MG Hospital\nPOWAI POLYCLINIC AND HOSPITAL\nDr L H Hiranandani Hospital\nShree Sai Clinic\nMangala Hospital\nRaksha Multispeciality Hospital \nHoly Spirit Hospital\nBellevue Multispeciality Hospital\nKokilaben Dhirubhai Ambani Hospital and Medical Research Institute\nAllCure SuperSpeciality Hospital\nAayush Hospital\nAxis Multispecialty Hospital\nAashirwad Nursing Home\nKalsekar hospital versova\nHindu Hruday Samrat Balasaheb Thackerey Trauma Care Municipal Hospital\nFathima Children Hospital & Criticare Center\nBhandup criticare hospital kokan nagar\nNESCO COVID CENTER\nSuvidha Hospital & Polyclinic"],
+        "context_set":""
+        },
+        {"tag": "ESI Mahatma Gandhi Memorial Hospital",
+         "patterns": ["ESI Mahatma Gandhi Memorial Hospital"],
+         "responses": [" Dr. S.S. Rao Road, Parel, Mumbai "],
+         "context_set": ""
+        },   
+         {"tag": "King Edward Memorial Hospital and Seth Gordhandas Sunderdas Medical College",
+         "patterns": ["King Edward Memorial Hospital and Seth Gordhandas Sunderdas Medical College"],
+         "responses": ["Acharya Donde Marg, Parel East, Parel "],
+         "context_set": ""
+        },
+         {"tag": "Bai Jerbai Wadia Hospital",
+         "patterns": ["Bai Jerbai Wadia Hospital"],
+         "responses": ["Acharya Donde Marg, Parel East, Parel"],
+         "context_set": ""
+        },
+        {"tag": "Group of Tuberculosis Hospitals",
+         "patterns": ["Group of Tuberculosis Hospitals"],
+         "responses": ["Jerbai Wadia Rd, Sewree, Mumbai Central"],
+         "context_set": ""
+        },
+        {"tag": "Naigaon Municipal Maternity Home",
+         "patterns": ["Naigaon Municipal Maternity Home"],
+         "responses": ["5, SS Wagh Marg, Old bdd chawl, Naigaon, Dadar"],
+         "context_set": ""
+        },
+        {"tag": "Mumbai Port Trust Hospital",
+         "patterns": ["Mumbai Port Trust Hospital"],
+         "responses": ["LM Nadkarni Marg, Nadkarni Park, Wadala East, BPT Colony, Wadala, Mumbai"],
+         "context_set": ""
+        },
+        {"tag": "Acworth Municipal Hospital ",
+         "patterns": ["Acworth Municipal Hospital"],
+         "responses": ["Wadala, Mumbai"],
+         "context_set": ""
+        },
+        {"tag": "Galaxy multispecialty hospital",
+         "patterns": ["Galaxy multispecialty hospital"],
+         "responses": ["2, Shaikh Misree Marg, KP Munot Nagar Nagar, Antop Hill"],
+         "context_set": ""
+        },
+        {"tag": "SHUSHRUSHA CITIZENS' CO-OPERATIVE HOSPITAL",
+         "patterns": ["SHUSHRUSHA CITIZENS' CO-OPERATIVE HOSPITAL"],
+         "responses": ["B, Ranade Rd, Dadar West, Dadar, Mumbai"],
+         "context_set": ""
+        },
+        {"tag": "Jyoti Nursing Home",
+         "patterns": ["Jyoti Nursing Home"],
+         "responses": ["B WING, Shaikh Misree Marg, KP Munot Nagar Nagar, Antop Hill, Mumbai"],
+         "context_set": ""
+        },
+        {"tag": "Maa Medicals",
+         "patterns": ["Maa Medicals"],
+         "responses": ["2/ 24, Yudukul Chs, Postal Colony, R C Marg, Chembur, Mumbai"],
+         "context_set": ""
+        },
+        {"tag": "P. D. Hinduja National Hospital & Medical Research Centre",
+         "patterns": ["P. D. Hinduja National Hospital & Medical Research Centre"],
+         "responses": ["SVS Rd, Mahim West, Shivaji Park, Mumbai"],
+         "context_set": ""
+        },    
+        {"tag": "Raoli Camp Municipal Maternity Home",
+         "patterns": ["Raoli Camp Municipal Maternity Home"],
+         "responses": ["IV-21, Mara Singh Marg, Nirmal Nagar, Kokri Agar, Sion, Mumbai"],
+         "context_set": ""
+        },    
+        {"tag": "Sion Hospital",
+         "patterns": ["Sion Hospital"],
+         "responses": ["RB2 Central Railway Quarters, Jain Society, Sion, Mumbai"],
+         "context_set": ""
+        },          
+        {"tag": "Prabhat Maternity & Surgical Nursing Home",
+         "patterns": ["Prabhat Maternity & Surgical Nursing Home"],
+         "responses": ["26, Lohar Chawl Ln, above Prabhat Bazar, Mahim Bazar, Kapad Bazar, Mahim West, Mahim, Mumbai"],
+         "context_set": ""
+        },    
+        {"tag": "Shri Sai hospital",
+         "patterns": ["Shri Sai hospital"],
+         "responses": ["Gokul Nagari I, Thakur Complex, Western Express Highway, Kandivali East, Mumbai"],
+         "context_set": ""
+        },
+        {"tag": "Shiv Polyclinc & Nursing Home",
+         "patterns": ["Shiv Polyclinc & Nursing Home"],
+         "responses": ["BUILDING NUMBER 16 PREM NIWAS LAXMI COLONY, Mahul Rd, NEAR Ashish Theatre, Chembur, Mumbai"],
+         "context_set": ""
+        },        
+        {"tag": "S L Raheja Hospital",
+         "patterns": ["S L Raheja Hospital"],
+         "responses": ["Raheja Rugnalaya Marg, Mahim West, Mahim, Mumbai"],
+         "context_set": ""
+        },
+        {"tag": "Lifecare Hospital",
+         "patterns": ["Lifecare Hospital"],
+         "responses": ["Dharavi Main Rd, Dharavi, Mumbai"],
+         "context_set": ""
+        },                  
+        {"tag": "K. J. Somaiya College of Physiotherapy",
+         "patterns": ["address ofK. J. Somaiya College of Physiotherapy"],
+         "responses": ["Ayurvihar Complex, Eastern Express Hwy, Sion, Mumbai"],
+         "context_set": ""
+        },    
+        {"tag": "Pandit Madan Mohan Malviya Shatabdi Municipal General Hospital",
+         "patterns": ["Pandit Madan Mohan Malviya Shatabdi Municipal General Hospital"],
+         "responses": ["Centenary Building, WTP Marg, near Pepsi Company, Govandi East, Mumbai"],
+         "context_set": ""
+        },    
+        {"tag": "Sitla Hospital",
+         "patterns": ["Sitla Hospital"],
+         "responses": ["19/B, Sindhi Society, Near Bhakti Bhavan, Chembur, Mumbai"],
+         "context_set": ""
+        },    
+        {"tag": "Ashirwad Hospital, Blessing For Life",
+         "patterns": ["address ofAshirwad Hospital, Blessing For Life"],
+         "responses": ["First floor, Anurag Business Centre, Near Amar Cinema, W.T. Ghatla, Chembur, Waman Tukaram Patil Marg, Ghatla, Chembur"],
+         "context_set": ""
+        },    
+        {"tag": "Surana Sethia Hospital",
+         "patterns": ["Surana Sethia Hospital"],
+         "responses": ["Sion - Trombay Rd, Suman Nagar, Chembur, Mumbai"],
+         "context_set": ""
+        },    
+        {"tag": "Lilavati Hospital And Research Centre",
+         "patterns": ["Lilavati Hospital And Research Centre"],
+         "responses": ["A-791, Bandra Reclamation Rd, General Arunkumar Vaidya Nagar, Bandra West, Mumbai"],
+         "context_set": ""
+        },    
+        {"tag": "Swastik Hospital And Research Centre",
+         "patterns": ["Swastik Hospital And Research Centre"],
+         "responses": ["22, Deepak Kumar Marg, Swastik Park, Chembur, Mumbai"],
+         "context_set": ""
+        },    
+        {"tag": "L. C. Manek Poly Clinic",
+         "patterns": ["L. C. Manek Poly Clinic"],
+         "responses": ["Ground Floor, Parvati Palace, Shivpuri Compound, Chembur, Mumbai"],
+         "context_set": ""
+        },    
+        {"tag": "Joy Hospital",
+         "patterns": ["Joy Hospital"],
+         "responses": ["Door No. 423, AB, 10th Rd, Jai Ambe Nagar, Chembur Gaothan, Chembur, Mumbai"],
+         "context_set": ""
+        },    
+        {"tag": "Subham Hospital & Intensive Care Unit",
+         "patterns": ["Subham Hospital & Intensive Care Unit"],
+         "responses": ["05/03, Jeejabai Bhosale Marg, Chikuwadi, Mankhurd, Mumbai"],
+         "context_set": ""
+        },    
+        {"tag": "Holy Family Multispeciality Hospital Bandra",
+         "patterns": ["Holy Family Multispeciality Hospital Bandra"],
+         "responses": ["St Andrews Rd, Bandra West, Mumbai"],
+         "context_set": ""
+        },    
+        {"tag": "Bhabha Hospital",
+         "patterns": ["Bhabha Hospital"],
+         "responses": ["Waterfield Road, Bandra West, Mumbai"],
+         "context_set": ""
+        },    
+        {"tag": "Guru Nanak Hospital",
+         "patterns": ["Guru Nanak Hospital"],
+         "responses": ["S 341, near Collector Office, Gandhi Nagar, Bandra East, Mumbai"],
+         "context_set": ""
+        },    
+        {"tag": "Kolekar Hospital & ICCU",
+         "patterns": ["Kolekar Hospital & ICCU"],
+         "responses": ["Approach to Ambedkar Garden Bus Stop Chembur Gaothan, Chembur 2nd & 3rd floor Omprakash Arcade, Mumbai"],
+         "context_set": ""
+        },    
+        {"tag": "Aryan Hospital & Medical Centre",
+         "patterns": ["Aryan Hospital & Medical Centre"],
+         "responses": ["D-28, 29, Nehru Nagar, Station Road, Kurla (East), Mumbai"],
+         "context_set": ""
+        },    
+        {"tag": "Shivam Nursing Home",
+         "patterns": ["Shivam Nursing Home"],
+         "responses": ["Police Station, Government Colony Bandra, Near Kherwadi, Shri Hari Mandir Marg, Kala Nagar, Bandra East, Mumbai"],
+         "context_set": ""
+        },    
+        {"tag": "SRV Hospital Chembur",
+         "patterns": ["SRV Hospital Chembur"],
+         "responses": ["Dr Mandakini Parihar Marg opposite Lokmanya Tilak Terminus, Tilak Nagar, Chembur, Mumbai"],
+         "context_set": ""
+        },    
+        {"tag": "Bkc jumbo phase 2",
+         "patterns": ["Bkc jumbo phase 2 "],
+         "responses": ["JSW Rd, Kolivery Village, MMRDA Area, Kalina, Santacruz East, Mumbai"],
+         "context_set": ""
+        },
+        {"tag": "Durga Nursing Home",
+         "patterns": ["Durga Nursing Home"],
+         "responses": ["25, CST Road, Kolivery Village, MMRDA Area, Kalina, Santacruz East, Mumbai"],
+         "context_set": ""
+        },   
+        {"tag": "K J Somaiya Institute of Management",
+         "patterns": ["K J Somaiya Institute of Management"],
+         "responses": ["Somaiya Vidyavihar University, Vidya Vihar East, Mumbai"],
+         "context_set": ""
+        },   
+        {"tag": "Children heart centre Bai jerbai Wadia Hospital for Children Parel",
+         "patterns": ["Children heart centre Bai jerbai Wadia Hospital for Children Parel"],
+         "responses": ["192, CST Road, Lower Parel, Friends Colony, Hallow Pul, Kurla, Mumbai"],
+         "context_set": ""
+        },   
+        {"tag": "NHSrcc Hospital mumbai",
+         "patterns": ["NHSrcc Hospital mumbai"],
+         "responses": ["Kurla West, Kismat Nagar, Mumbai"],
+         "context_set": ""
+        },   
+        {"tag": "bhatia hospital tadtev",
+         "patterns": ["bhatia hospital tadtev"],
+         "responses": ["Lower Parel, Friends Colony, Kurla West, Kurla"],
+         "context_set": ""
+        },   
+        {"tag": "Kohinoor Hospital",
+         "patterns": ["Kohinoor Hospital"],
+         "responses": ["Kirol Road, Off, Lalbahadur Shastri Rd, Kurla West, Mumbai"],
+         "context_set": ""
+        },   
+        {"tag": "Noor Hospital",
+         "patterns": ["Noor Hospital"],
+         "responses": ["Kurla Bus Depot Junction Lal Bahadur Shastri Road Friends Colony, Hallow Pul, Kurla West, Mumbai"],
+         "context_set": ""
+        },   
+        {"tag": "Ramakrishna Mission Hospital",
+         "patterns": ["Ramakrishna Mission Hospital"],
+         "responses": ["12th Rd, Khar, Khar West, Mumbai"],
+         "context_set": ""
+        },   
+        {"tag": "Niron Hospital",
+         "patterns": ["Niron Hospital"],
+         "responses": [" near Vishwakarma Hall, Kolivery Village, Kadamwadi, Vakola, Santacruz East, Mumbai"],
+         "context_set": ""
+        },   
+        {"tag": "Habib Hospital",
+         "patterns": ["Habib Hospital"],
+         "responses": ["Plot No. 345, 345/1 & 238, AH Wadia Marg, Old Agra Road, Off, Lal Bahadur Shastri Rd, opp. Shalimar Hotel, Kurla West, Mumbai"],
+         "context_set": ""
+        },   
+        {"tag": "Rajawadi Hospital",
+         "patterns": ["Rajawadi Hospital"],
+         "responses": ["7, M G Road, Near Somaiya College, Ghatkopar East, Mumbai"],
+         "context_set": ""
+        },   
+        {"tag": "Fauziya Hospital",
+         "patterns": ["Fauziya Hospital"],
+         "responses": ["Aero View Housing Society, 209 Co-op Hsg society, Lal Bahadur Shastri Rd, Kurla West"],
+         "context_set": ""
+        },   
+        {"tag": "Sona Maternity And Surgical Nursing Home",
+         "patterns": ["Sona Maternity And Surgical Nursing Home"],
+         "responses": ["Kirol Gaon, Ramabai Ambedkar Nagar, Mankur, Mumbai"],
+         "context_set": ""
+        },   
+        {"tag": "Dattatreya Nursing Home",
+         "patterns": ["Dattatreya Nursing Home"],
+         "responses": ["Datta Mandir Rd, Demello Compound, Vakola, Santacruz East, Mumbai"],
+         "context_set": ""
+        },   
+        {"tag": "Varun Cardiac Clinic",
+         "patterns": ["Varun Cardiac Clinic"],
+         "responses": ["101-102, Gayatridham, Derasar Ln, Ghatkopar East, Mumbai"],
+         "context_set": ""
+        },   
+        {"tag": "H. J. Doshi Ghatkopar Hindu Sabha Hospital",
+         "patterns": ["H. J. Doshi Ghatkopar Hindu Sabha Hospital"],
+         "responses": ["Shraddhanand Rd, opp. Railway Station,Ghatkopar West, Mumbai"],
+         "context_set": ""
+        },   
+        {"tag": "Sarla Hospital & ICU",
+         "patterns": ["Sarla Hospital & ICU"],
+         "responses": ["5D Dattatray Road, Santacruz West, Natyalekhak Anil Mehta Marg, Mumbai"],
+         "context_set": ""
+        },   
+        {"tag": "Sonagra Medical & Surgical Center",
+         "patterns": ["Sonagra Medical & Surgical Center"],
+         "responses": ["Off LBS Road, Karani Ln, Ghatkopar West, Mumbai"],
+         "context_set": ""
+        },   
+        {"tag": "Zynova Shalby Hospital",
+         "patterns": ["Zynova Shalby Hospital"],
+         "responses": ["Trimurti Arcade, Lal Bahadur Shastri Rd,Gandhi Nagar, Kirti Vihar, Ghatkopar West, Mumbai"],
+         "context_set": ""
+        },   
+        {"tag": "Shanti Nursing Home",
+         "patterns": ["Shanti Nursing Home"],
+         "responses": ["103 Prabhu Krupa, Lal Bahadur Shastri Road Behind Vodafone Gallery, near Sarvoday Hospital, Ghatkopar West, Mumbai"],
+         "context_set": ""
+        },   
+        {"tag": "Pasaydan Hospital And Trust",
+         "patterns": ["Pasaydan Hospital And Trust"],
+         "responses": ["Bhatwadi, Bhim Nagar, Barve Nagar, Ghatkopar West, Mumbai"],
+         "context_set": ""
+        },   
+        {"tag": "Sai Ganesh SRA CHS Ltd",
+         "patterns": ["Sai Ganesh SRA CHS Ltd"],
+         "responses": ["CTS 53, Bhatwadi, Barve Nagar, Ghatkopar West, Mumbai"],
+         "context_set": ""
+        },   
+        {"tag": "Nanavati Super Speciality Hospital",
+         "patterns": ["Nanavati Super Speciality Hospital"],
+         "responses": ["Swami Vivekananda Rd, near LIC, LIC Colony, Suresh Colony, Vile Parle West, Mumbai"],
+         "context_set": ""
+        },   
+        {"tag": "Paramount General Hospital & ICCU",
+         "patterns": ["Paramount General Hospital & ICCU"],
+         "responses": ["Laxmi Commercial Premises, Near Sakinaka Junction, Andheri Kurla Road Andheri East, Magan Nathuram Rd, Saki Naka, Mumbai"],
+         "context_set": ""
+        },   
+        {"tag": "Shirodkar Hospital",
+         "patterns": ["Shirodkar Hospital"],
+         "responses": ["Paranjape Scheme B Rd Number 1, Vishnu Prasad Society, Navpada, Vile Parle East, Vile Parle, Mumbai"],
+         "context_set": ""
+        },   
+        {"tag": "Godrej Memorial Hospital",
+         "patterns": ["Godrej Memorial Hospital"],
+         "responses": ["Eastern Express Highway Opposite Godrej Tower, Pirojshanagar, Vikhroli, Mumbai"],
+         "context_set": ""
+        },   
+        {"tag": "KLS Memorial Hospital",
+         "patterns": ["KLS Memorial Hospital"],
+         "responses": ["Irla, Vile Parle (West), Mumbai"],
+         "context_set": ""
+        },   
+        {"tag": "Seven Hills Hospital",
+         "patterns": ["Seven Hills Hospital"],
+         "responses": ["Marol Maroshi Rd, Shivaji Nagar JJC, Marol, Andheri East, Mumbai"],
+         "context_set": ""
+        },   
+        {"tag": "Hashir Hospital & ICU",
+         "patterns": ["Hashir Hospital & ICU"],
+         "responses": ["Near Richard Garage, Dispensary Building, CTS No 241B, Off, Military Rd, Marol, Andheri East, Mumbai"],
+         "context_set": ""
+        },   
+        {"tag": "Shakuntala Nursing Home",
+         "patterns": ["Shakuntala Nursing Home"],
+         "responses": ["Buddh Vihar Rd, Group 2, Sona Intp Colony, Tagore Nagar, Vikhroli, Mumbai"],
+         "context_set": ""
+        },   
+        {"tag": "HBT Medical College And Dr. R N Cooper Municipal General Hospital",
+         "patterns": ["HBT Medical College And Dr. R N Cooper Municipal General Hospital"],
+         "responses": ["U 15, Bhaktivedanta Swami Rd, JVPD Scheme, Juhu, Mumbai"],
+         "context_set": ""
+        },   
+        {"tag": "Goel Hospital",
+         "patterns": ["Goel Hospital"],
+         "responses": ["Wireless Rd, Ekta Nagar, J B Nagar, Andheri East, Andheri"],
+         "context_set": ""
+        },   
+        {"tag": "Advanced Multispeciality Hospital",
+         "patterns": ["Advanced Multispeciality Hospital"],
+         "responses": ["CMPH Medical College Campus, Natakar Gadkari Marg, Gulmohar Rd, Irla, Vile Parle West, Mumbai"],
+         "context_set": ""
+        },   
+        {"tag": "Surya Hospital",
+         "patterns": ["Surya Hospital"],
+         "responses": ["Lallubhai Park Rd, Near Sai Jyote Building, Navpada, T E Colony, Andheri West, Mumbai"],
+         "context_set": ""
+        },   
+        {"tag": "Shushrusha Hospital",
+         "patterns": ["Shushrusha Hospital"],
+         "responses": ["201, Rd Number 1, Kannamwar Nagar I, Vikhroli, Mumbai"],
+         "context_set": ""
+        },   
+        {"tag": "Criti Care Multi Speciality Hospital",
+         "patterns": ["Criti Care Multi Speciality Hospital"],
+         "responses": ["10th Cross Rd, Gulmohar Road, JVPD Scheme, Vile Parle West, Mumbai"],
+         "context_set": ""
+        },   
+        {"tag": "Sanjeevani hospital",
+         "patterns": ["Sanjeevani hospital"],
+         "responses": ["11, Nityanand nagar, Sahar Rd, Andheri East, Mumbai"],
+         "context_set": ""
+        },   
+        {"tag": "Seven Hills Hospital",
+         "patterns": ["Seven Hills Hospital"],
+         "responses": ["Marol Maroshi Rd, Shivaji Nagar JJC, Marol, Andheri East, Mumbai"],
+         "context_set": ""
+        },   
+        {"tag": "Hashir Hospital & ICU",
+         "patterns": ["Hashir Hospital & ICU"],
+         "responses": ["Near Richard Garage, Dispensary Building, CTS No 241B, Off, Military Rd, Marol, Andheri East, Mumbai"],
+         "context_set": ""
+        },   
+        {"tag": "Shakuntala Nursing Home",
+         "patterns": ["Shakuntala Nursing Home"],
+         "responses": ["Buddh Vihar Rd, Group 2, Sona Intp Colony, Tagore Nagar, Vikhroli, Mumbai"],
+         "context_set": ""
+        },   
+        {"tag": "BSES MG Hospital",
+         "patterns": ["BSES MG Hospital"],
+         "responses": ["Swami Vivekananda Rd, Lohana Colony, Andheri West, Mumbai"],
+         "context_set": ""
+        },   
+        {"tag": "POWAI POLYCLINIC AND HOSPITAL",
+         "patterns": ["POWAI POLYCLINIC AND HOSPITAL"],
+         "responses": ["polyclinic and hospital, 19th A Rd, opp IIT main gate village, Tirandaz, Powai, Mumbai"],
+         "context_set": ""
+        },       
+        {"tag": "Dr L H Hiranandani Hospital",
+         "patterns": ["Dr L H Hiranandani Hospital"],
+         "responses": ["Hillside Rd, Hiranandani Gardens, Ramabai Ambedkar Nagar, Powai, Mumbai"],
+         "context_set": ""
+        },       
+        {"tag": "Shree Sai Clinic",
+         "patterns": ["Shree Sai Clinic"],
+         "responses": [":P. Paradakar Chawl, Malpa Dongari No.9, Datta Jagdamba Mandir Marg, Aghadi Nagar, Andheri East, Mumbai"],
+         "context_set": ""
+        },       
+        {"tag": "Mangala Hospital",
+         "patterns": ["Mangala Hospital"],
+         "responses": ["bamandaya pada, Andheri East, Mumbai"],
+         "context_set": ""
+        },       
+        {"tag": "Raksha Multispeciality Hospital ",
+         "patterns": ["Raksha Multispeciality Hospital"],
+         "responses": ["1st Floor, Twin Tower, Manish Park Pump House, Jijamata Rd, Parsi Colony, Andheri East, Mumbai"],
+         "context_set": ""
+        },       
+        {"tag": "Holy Spirit Hospital",
+         "patterns": ["Holy Spirit Hospital"],
+         "responses": ["Mahakali Caves Rd, Sher E Punjab Colony, Andheri East, Mumbai"],
+         "context_set": ""
+        },       
+        {"tag": "Bellevue Multispeciality Hospital",
+         "patterns": ["Bellevue Multispeciality Hospital"],
+         "responses": ["The Link, 1st floor, Opp. D.N. Nagar Metro Station gate no 3, Next to Audi Showroom, New Link Rd, opp. Star Bazaar Extension, Andheri West, Mumbai"],
+         "context_set": ""
+        },       
+        {"tag": "Kokilaben Dhirubhai Ambani Hospital and Medical Research Institute",
+         "patterns": ["Kokilaben Dhirubhai Ambani Hospital and Medical Research Institute"],
+         "responses": ["Rao Saheb, Achutrao Patwardhan Marg, Four Bungalows, Andheri West, Mumbai"],
+         "context_set": ""
+        },       
+        {"tag": "AllCure SuperSpeciality Hospital",
+         "patterns": ["AllCure SuperSpeciality Hospital"],
+         "responses": ["Jogeshwari Station Road, Jogeshwari East, above ICICI Bank, Mumbai"],
+         "context_set": ""
+        },       
+        {"tag": "Aayush Hospital",
+         "patterns": ["Aayush Hospital"],
+         "responses": ["Bhagatsingh Nagar No 3, Opposite Oshiwara Bus Depo, Link Road, Goregaon West, Goregaon West, Mumbai"],
+         "context_set": ""
+        },       
+        {"tag": "Axis Multispecialty Hospital",
+         "patterns": ["Axis Multispecialty Hospital"],
+         "responses": ["Oberoi Raviraj Complex, Axis Hospital, Sai Dwar, Vastu Lane, opposite Indigo Delicatessen, Lokhandwala Complex, Andheri West, Mumbai"],
+         "context_set": ""
+        },       
+        {"tag": "Aashirwad Nursing Home",
+         "patterns": ["Aashirwad Nursing Home"],
+         "responses": ["39A, Ground Floor, Apna Ghar, Shivam Building, A/1,, Swami Samarth Nagar, Near Mcdonald, Andheri(W), Mumbai"],
+         "context_set": ""
+        },       
+        {"tag": "Kalsekar hospital versova",
+         "patterns": ["Kalsekar hospital versova"],
+         "responses": ["60, Anjuman i Islam complex Fisheries university road, Yari Rd, Versova, Andheri West, Mumbai"],
+         "context_set": ""
+        },       
+        {"tag": "Hindu Hruday Samrat Balasaheb Thackerey Trauma Care Municipal Hospital",
+         "patterns": ["Hindu Hruday Samrat Balasaheb Thackerey Trauma Care Municipal Hospital"],
+         "responses": ["Hindu balasaheb thakre hospital, Geetanjali Railway Colony, Ram Nagar, Goregaon, Mumbai"],
+         "context_set": ""
+        },       
+        {"tag": "Fathima Children Hospital & Criticare Center",
+         "patterns": ["Fathima Children Hospital & Criticare Center"],
+         "responses": ["Dreamland Apartments, 1st, Govindji Shroff Marg, Vaishali Nagar, Jogeshwari West, Mumbai"],
+         "context_set": ""
+        },       
+        {"tag": "Bhandup criticare hospital kokan nagar",
+         "patterns": ["Bhandup criticare hospital kokan nagar"],
+         "responses": ["1st floor, Sahajivan Heights, bus stop, Jangal Mangal Rd, Bhandup, Kokan Nagar, Bhandup West, Mumbai"],
+         "context_set": ""
+        },       
+        {"tag": "NESCO COVID CENTER",
+         "patterns": ["NESCO COVID CENTER"],
+         "responses": ["29/A, Western Express Hwy, Bimbisar Nagar, Goregaon, Mumbai"],
+         "context_set": ""
+        },       
+        {"tag": "Suvidha Hospital & Polyclinic",
+         "patterns": ["Suvidha Hospital & Polyclinic"],
+         "responses": ["Suvidha hospital and polyclinic, 275, Rd Number 3, Jawahar Nagar, Goregaon West, Mumbai"],
+         "context_set": ""
+        },
+        {"tag": "Areas in thane",
+        "patterns": ["Areas in thane", "thane areas"],
+        "responses": ["kalyan, thane west, naupada, dombivali, badlapur, manpada, mira road, bhaindar, bhayandar, kapurbawdi, kopri,kharegoan"],
+        "context_set": ""
+        },
+        {"tag": "kalyan",
+        "patterns": ["kalyan"],
+        "responses": ["Apex Multispeciality Hospital (Address - Shiv Tirth Apartment, Parnaka Road, Kalyan City, Near Trivikram TempKalyan, Thane,  421301)\nShivkala Hospital (Address - Shop No 1,3, Anand Tower, Netaji Chowk, Ulhasnagar No 5, OppositePrabhat Garden Kalyan, Thane,  421005)\nArati Hospital Center (Address - Shop No. 11, Ground Floor, Behind Ramdev Hotel,Zojwala Shopping Centre, Agra Rd, Surganga Society, JijaMata Colony, Kalyan West Kalyan, Thane,  421301)\nPrachi Hospital(Address - RSGKVR Vidyalaya, Gujarati School, Bail Bazar Chowk, Kalyan West Kalyan, Thane,  421301)\nSapphire Hospital(Address - Ajit Chamber, Murbad Road, Kalyan City, Opposite Punjab National Bank Kalyan, Thane,  421301)\nFortis Hospital(Address - Fortis Hospital Shill Road, Bail Bazaar, Kalyan Kalyan, Thane,  421301)\nMahesh Hospital (Address - BalajiApartment, 1st Floor, Pune Link Road, Kalyan, Near Tisgao Naka Dombivali, Thane,  421304)\nMetropol Hospital (Address - F/8,Chandresh Himalaya, Lodha Heaven Nilaje, Kalyan Shilphata Road, Dombivli East, Maharashtra,421204)"],
+        "context_set": ""
+        },
+        {"tag": "naupada",
+        "patterns": ["naupada"],
+        "responses": ["Narayani Lifesciences\n(C/O Vedant Hospital, Thane West Naupada, Thane,  400601)\nSRL Hospitals (Uthalsar)\n(Shop No.2, Deepti Apartment, Near Uthalsar Temple, Uthalsar Nakka, Uthalsar Road, Uthalsar Naupada, Thane,  400601\nLifeline Hospitals\n(1st Floor, Asiatic Arcade, Pokhran Road No 1, Thane West, Naupada, Thane, 400601)\nBapat UrologyCentre\n(Uday Chawl, Near Rupee Corporate Bank, A K Vaidya Road, Panchpakhadi Naupada, Thane,  400602)\nAccura Hospital\n(202, Gangaprasad, Ram Ganesh Gadkari Road, Near Saibaba Mandir, Opposite Shraddha vadapav, Ghantali, Naupada Naupada,Thane,  400602)\nMetropolis Healthcare Ltd\n(201, 202, 203, 2nd Floor, Kriss Corner, Opp to Saraswati Vidyalaya, NearMuchhala College, Anand Nagar, G. B. Road Naupada, Thane,  400601)\nVedant Hospital GB Road\n(104, Beauty Arcade, KolbadRoad, Opposite Pratap Cinema, Khopat Naupada, Thane,  400601)\nLife Care Hospital\n(Sharad Kunj Building, Ground Floor, DrMoose Road, Behind HDFC Bank, Near Gadkari Rangayatan, Talao Palil Naupada, Thane – 400601)\nSiddhivinayak Hospital\n(AceBusiness Centre, Ground Floor, premices no 2,, Near Navneet motors, LBS Road, Gokul Nagar Naupada, Thane,  400601)\nSwayamHospital\n(1,A, Ground Floor, Vijay Apartment, K B Patil Road, Thane West, Mulund Check Naka, Kisan Nagar,1, Wagle EstateNaupada, Thane,  400604)\nThane Noble Hospital\n(25/26, 1st Floor, C/O Ajit Shopping Centre, Above Shilpa Hotel, Near TeenPetrol Pump & Hariniwas Circle Naupada, Thane,  400601)\nHorizon Prime Hospital\n(106/107, 1st Floor, Ashar CommercialComplex, Gladys Alwares Road Naupada, Thane,  400601)\nKaizen Supermulti Speciality\n(25/26, 1st Floor, C/O Ajit ShoppingCentre, Above Shilpa Hotel, Near Teen Petrol Pump & Hariniwas Circle Naupada, Thane,  400601)\nDiya Hospital\n(1,A, GroundFloor, Vijay Apartment, K B Patil Road, Thane West, Mulund Check Naka, Kisan Nagar,1, Wagle Estate Naupada, Thane, 400604\nAarogya Hospital,  Kharegoan Kalwa\n(Ace Business Centre, Ground Floor, premices no 2,, Near Navneet motors, LBS Road,Gokul Nagar Naupada, Thane,  400601)\nOrthocare hospital\n(Shop No 25, Ground Floor, Rajdeep Co,op Hsg. Soc.Naupada,Naupada, Thane, 400602)\nHare Krishna Manav\n(1st Floor, Asiatic Arcade, Pokhran Road No 1, Thane West, Naupada, Thane,400601)\nSiddhivinayak Hospital Extension\n(B,102, Gautam Tower, Gokhale Road, Thane West, Maharashtra Opposite TribhovandasJewellery Naupada, Thane, 400602)"],
+        "context_set": ""
+        },
+        {"tag": "thane west",
+        "patterns": ["thane west"],
+        "responses": ["Narayani Lifesciences (C/O Vedant Hospital, Thane West Naupada, Thane,  400601)\nLifeline Hospitals (1stFloor, Asiatic Arcade, Pokhran Road No 1, Thane West, Naupada, Thane, 400601)\nJupiter Hospital (Smt Gladys Alvares Rd,Vasant Vihar Thane West, Thane,  400610)\nSapphire Hospital (Manpada Road, Tikuji Ni Wadi Rd, Manpada Thane West, Thane, 400607)\nShree Sai Hospital (209/210, Soham Plaza, Ghodbunder Road, Manpada,Thane West Thane West, Thane,  400607)\nThaneHealth Care (Sai Prasad Sociman Road, Omkareshwar Marg, Patil Nagar Thane West, Thane, 400606)\nEkta Hopsital LLP & ICCU(Patlipada Thane West, Thane,  400607)\nSwayam Hospital (1,A, Ground Floor, Vijay Apartment, K B Patil Road, Thane West,Mulund Check Naka, Kisan Nagar,1, Wagle Estate Naupada, Thane,  400604)\nDiya Hospital (1,A, Ground Floor, Vijay Apartment,K B Patil Road, Thane West, Mulund Check Naka, Kisan Nagar,1, Wagle Estate Naupada, Thane,  400604)\nPark Way Titan Hospital(Ground Floor, Tara Niwas, Baji Prabhu Deshpande Marg, Thane West, 3 Petrol Pump, Near Brahman Vidyalaya Naupada, Thane, 400602)\nHare Krishna Manav (1st Floor, Asiatic Arcade, Pokhran Road No 1, Thane West, Naupada, Thane, 400601\nSiddhivinayak Hospital Extension (B,102, Gautam Tower, Gokhale Road, Thane West, Maharashtra Opposite TribhovandasJewellery Naupada, Thane,  400602)\nshree sai hospital (Bhavani Nagar, Manpada, Thane West, Thane)\nDr Praveen GokhalesChildrens Clinic and Vaccination Centre (Manpada, Thane West, Thane)\nKarkhanis Super Speciality Hospital (Tikuji Ni WadiRoad, Manpada, Thane West, Thane)\nMetro Hospital (Tikuji Ni Wadi Road, Manpada, Thane West, Thane)\nSapphire Hospital(Manpada Road, Tikuji Ni Wadi Road, Manpada, Thane West, Thane)\nBhanushali Hospital (Kaushalya Shivaji Path, 400601,Manpada, Thane West, Thane)\nSiddharth Hospital (Near Manpada Flyover, Manpada, Thane West, Thane)\nShree Shidhivinayek(Shankar Mandir, Kolshet Road, Manorama Nagar, Thane West, Thane)\nThane Mahanagar Hospital (Patlipada, Thane West, Thane)"],
+        "context_set": ""
+        },
+        {"tag": "Dombivali",
+        "patterns": ["dombivali"],
+        "responses": ["City Hospital (Dombivali)\n(1st Floor, Central Plaza, Dombivli West, Above Central Bank Of India, Near GopiMall, Vishnu Nagar Dombivali, Thane,  421202)\nMahesh Hospital\n(Balaji Apartment, 1st Floor, Pune Link Road, Kalyan, NearTisgao Naka Dombivali, Thane,  421304)\nKausa Stadium Hospital\n(Shop No 5, Shree Samarth Krupa Building, Din Dayal Road,Dombivli West, Below SAI Care Hospital Dombivali, Thane,  421202)\nParking Plaza Hospital\n(Shop No.7, Om Bhairavi Apt,Besides Samrat Hotel, Pandit Deendayal Road, Dombivli Dombivali, Thane,  421202)\nRohini Hospital\n(Shop No 11/12 Mahaganga,Tilak Road, Near Brahman Sabha & Sarvesh Hall, Opposite Municipal School, Dombivali Dombivali, Thane,  421201)\nAdityaHospital And ICU\n(103, Panvelkar Plaza, Station Road, Ambernath East, Opposite Dombivali Nagrik Bank Badlapur, Thane, 421506)\nJeevandeep Hospital And Critical Care Centre\n(Laxmi Darshan, Shrikhande Wadi, Manpada Cross Road, Dombivali West,Thane, 421202)"],
+        "context_set": ""
+        },    
+        {"tag": "badlapur",
+        "patterns": ["badlapur"],
+        "responses": ["Sankalp Pathology\n(Shop No 1, Akhil Society, Adarsh Road, Badlapur, Near Talathi Office Badlapur, Thane,421503)\nTitan Hospital\n(Ground floor, Behind Dosa King, Vikas Galaxy, Station Road, Badlapur, Maharashtra,421503)\nOSCARMultispecility Hospital\n(Shop No 1, Akhil Society, Adarsh Road, Badlapur, Near Talathi Office Badlapur, Thane, 421503)\nAceHospital (Dhanvantari Hospital)\n(Near Bajar Peth, Behind TJSB Bank, Hendrepada Road, Badlapur West Badlapur, Thane,  421503\nAditya Hospital And ICU\n(103, Panvelkar Plaza, Station Road, Ambernath East, Opposite Dombivali Nagrik Bank Badlapur,Thane,  421506)\nBijankur Hospital Multispeciality And Critical Care Centre\n(Plot No 1, Nawre Nagar Road, Near Anand ParkBadlapur, Thane,  421501)"],
+        "context_set": ""
+        },
+        {"tag": "manpada",
+        "patterns": ["manpada"],
+        "responses": ["Sapphire Hospital\n(Manpada Road, Tikuji Ni Wadi Rd, Manpada Thane West, Thane,  400607)\nShree Sai Hospital\n(209/210, Soham Plaza, Ghodbunder Road, Manpada,Thane West Thane West, Thane,  400607)\nAvenueE Vedant Covid Hospital\n(16A,16B, Soham Plaza, Behind Manpada Bus Stop, Ghodbunder Road, Manpada, Bhavani Nagar, Thane West,,  Thane,  400607)\nApolloHospitals Enterprise Ltd\n(Shop No 12, Soham Plaza, Manpada, Thane(W),  Manpada, Thane,  400607)\nAditi Hospital\n(2NdFloor, Krishna Tower, G B Road, Thane(W),  Manpada, Thane,  400607)\nJeevandeep Hospital And Critical Care Centre\n(LaxmiDarshan, Shrikhande Wadi, Manpada Cross Road, Dombivali West, Thane, 421202)\nDamdekar Hosptal\n(B Wing, 1St Floor, KasturiPlaza, Manpada Road, Dombivili East, Thane,  421203)\nshree sai hospital\n(Bhavani Nagar, Manpada, Thane West, Thane)\nDrPraveen Gokhales Childrens Clinic and Vaccination Centre\n(Manpada, Thane West, Thane)\nKarkhanis Super Speciality Hospital\n(Tikuji Ni Wadi Road, Manpada, Thane West, Thane)\nArogyadham\n(Sahayog Complex, Near MTNL Office, Tikuji Ni Wadi Road,Manpada, Thane West, Thane)\nMetro Hospital\n(Tikuji Ni Wadi Road, Manpada, Thane West, Thane)\nMetro Hospital\n(202, 2ndFloor, Soham Plaza, Tikuji Ni Wadi Road, Manpada, Near Manpada Junction, Thane West, Thane)\nBhanushali Hospital\n(KaushalyaShivaji Path, 400601, Manpada, Thane West, Thane)\nSiddharth Hospital\n(Near Manpada Flyover, Manpada, Thane West, Thane\nHiranandani Hospital\n(Hamilton B, Hiranandani Estate, Patlipada, Off Ghodbunder Road, Manpada, Thane, 400604)"],
+        "context_set": ""
+        },
+        {"tag": "mira road",
+        "patterns": ["mira road"],
+        "responses": ["Pal Pathology Lab\n(Shop no 2,Narmada Heritage,Ramdev Park, Mira Bhayander, Mira Road (East))\nCriticareLifeline Hospital\n(Next to Wockhardt Hospital, Haidri Chowk Mirared (E) Mira Road Health Post)\nLake City Hospital\n(Poonamsagar Rd,Next To Municiple hosp Mira Road East)\nSeven Square Hospital\n(Deepak Hospital Road, Seven Square School, MiraRoad (E) Ideal Park Health Post)\nMBMC CVC 18 SAMARTH HOSPITAL\n(Flat 101/104,202 Shop No.103, Ashadeep CHS. Silver Park,OppVijay Sales Mira Road (E))\nMBMC CVC 3 MEDITECH HOSPITAL\n(Classic Country, Near Shahi Hotel, Opp. Old Petrol Pump, MiraBhayander Road, Miraroad (E) )\nMBMC CVC 4 GALAXY HOSPITAL\n(Bldg No. 4, Vasudev Arcade, Kankia Road, ahead of Cinemax, MiraBhainder Road, Miraroad E)\nMBMC CVC 5 SHAH LIFELINE HOSPITAL\n(Geeta Nagar, Phase,7, Mira Bhayander Road, Near Fly OverBridge, Miraroad E)\nMBMC CVC 10 HITANKSHI HOSPITAL\n(Raj Oaks CHS LTD, 404,403,402,401, Near Don Dosco School, MTNL Road,Shanti Park, Miraroad (E) )\nMHATRE HOSPITAL\n(Mathura Niwas, Opp. Kakad Paradise, Penkarpada, Miraroad (E) )"],
+        "context_set": ""
+        },
+        {"tag": "bhaindar",
+        "patterns": ["bhaindar"],
+        "responses": ["MBMC CVC 2 NEW SAI GANGA HOSPITAL\n(101 PandurangKrupa Near Hanuman temple, Navghar Road Bhaindar (E) )\nMBMCCVC 6 FAMILY CARE HOSPITAL\n(Opp Seven SqureAcadamy. P.K Road Mira Bhaindar Cross road Mira Raod (E) )\nMBMC CVC 7 SHALOMHOSPITAL\n(Shalom Ark, Indralok Complex, Phase,VI, Opp. Raj Classic, Bhaindar (E.) )"],
+        "context_set": ""
+        },
+        {"tag": "bhayandar",
+        "patterns": ["bhayandar"],
+        "responses": ["MBMC CVC 17 DHANVANTARI MANAV KALYAN HOSPITAL\n(Ganesh Tower, B.P Road, Kharigaon Naka, Bhayandar East 401107\nGurukrupa Hospital\n(Savitri Apartment, Opposite Kashi Bhavan, B P Road, Khari Village, Bhayandar)"],
+        "context_set": ""
+        },
+        {"tag": "kapurbawdi",
+        "patterns": ["kapurbawdi"],
+        "responses": ["Sai Krisha Maternity Hospital\n110, Krishna Tower 2nd Floor Above sanman Hotel, Kapurbawdi, Thane West,Thane\nBrahmand Multispeciality Hospital\nShop No. 9/10, Ground Floor, Krishna Tower, Near Hotel Sanman Building, GhodbunderRoad, Kolshet Rd, Kapurbawdi, Kailash Nagar Thane West, Thane, 400607"],
+        "context_set": ""
+        },
+        {"tag": "Kharegoan",
+        "patterns": ["Kharegoan"],
+        "responses": ["Aarogya Hospital Kharegoan Kalwa (Ace Business Centre, Ground Floor, premices no 2, Near Navneet motors, LBSRoad, Gokul Nagar Naupada, Thane,  400601)"],
+        "context_set": ""
+        },
+        {"tag": "kopri",
+        "patterns": ["kopri"],
+        "responses": ["Aarogyam multispecialitie hospital kopri (P 19, MIDC, Behind Sarovar Hotel Boisar, Thane, 401501)"],
+        "context_set": ""
+        },
+        {"tag": "thane all hospitals",
+        "patterns": ["hospitals in thane", "covid centres in thane", "thane covid hospitals"],
+        "responses": ["Narayani Lifesciences, Sankalp Pathology, SRL Hospitals (Uthalsar), Kaushalya Hospital, Lifeline Hospitals,Nagesh Hospital, Apex Multispeciality Hospital, Bapat Urology Centre, Krishna Multifacility Hospital, Accura Hospital,Metropolis Healthcare Ltd, Orange Hospital, Shivkala Hospital, Lifeline Hospital, Arati Hospital Center, Pal Pathology Lab,Prachi Hospital, Jupiter Hospital, City Hospital (Dombivali), Sapphire Hospital, Mahesh Hospital, Fortis Hospital (Kalyan),Vedant Hospital GB Road, Sapphire Hospital, Shree Sai Hospital, Platinum Hospitals, Thane Health Care, Titan Hospital, LifeCare Hospital, Siddhivinayak Hospital, Bethany Hospital A,  Wing, Ekta Hopsital LLP & ICCU, Thane Covid Hospital,Global,Swayam Hospital, AvenueE Vedant Covid Hospital, HIGHLAND HOSPITAL, Viraj Hospital, Vedant Multispeciality Vartak Nagar,Kausa Stadium Hospital, Thane Noble Hospital, Dmark Medwin Hospital, Horizon Prime Hospital, Kaizen Supermulti Speciality,Metropol Hospital, Shivneri Hospital, Diya Hospital, Brahmand Multispeciality Hospital, Parking Plaza Hospital, RohiniHospital, Pristine Hospital, Swastik Hospital, Wellam Hospital, OSCAR Multispecility Hospital, Hargun Health Care, CriticareLifeline Hospital, Lake City Hospital, Bijankur Hospital Multispeciality And Critical Care Centre, Seven Square Hospital,MBMC CVC 1 POSSA HOSPITAL, MBMC CVC 3 MEDITECH HOSPITAL, MBMC CVC 4 GALAXY HOSPITAL, MBMC CVC 5 SHAH LIFELINE HOSPITAL, MBMCCVC 6 FAMILY CARE HOSPITAL, MBMC CVC 7 SHALOM HOSPITAL, MBMC CVC 8 ST. ANN'S HOSPITAL, MBMC CVC 10 HITANKSHI HOSPITAL, CVC13 STELLA MARRIES HOSPITAL, MBMC CVC 17 DHANVANTARI MANAV KALYAN HOSPITAL, MBMC CVC 18 SAMARTH HOSPITAL, MBMC CVC 14GURUKRUPA HOSPITAL, MHATRE HOSPITAL, MBMC CVC 16 MANAVATA HOSPITAL, Apollo Hospitals Enterprise Ltd, Aditi Hospital,Jeevandeep Hospital And Critical Care Centre, Damdekar Hosptal, shree sai hospital, Dr Praveen Gokhales Childrens Clinic andVaccination Centre, Karkhanis Super Speciality Hospital, Arogyadham, Metro Hospital, Trupti Maternity General Hospital,Gurukrupa Hospital, Sapphire Hospital, Bhanushali Hospital, Siddharth Hospital, Shree Shidhivinayek, Hiranandani Hospital,Jeevan Sahara Kendra (Bethany Trust Lok Hospital), Thane Mahanagar Hospital, DR KANDOI ASHIRWAD HOSPITAL"],
+        "context_set": ""
+        },
+
+        {"tag": "Narayani Lifesciences",
+        "patterns": ["Narayani Lifesciences"],
+        "responses": ["C/O Vedant Hospital, Thane West Naupada, Thane, 400601"],
+        "context_set": ""
+        },
+
+        {"tag": "Sankalp Pathology",
+        "patterns": ["Sankalp Pathology"],
+        "responses": ["Shop No 1, Akhil Society, Adarsh Road, Badlapur, Near Talathi Office Badlapur, Thane, 421503"],
+        "context_set": ""
+        },
+
+        {"tag": "SRL Hospitals (Uthalsar)",
+        "patterns": ["SRL Uthalsar"],
+        "responses": ["Shop No.2, Deepti Apartment, Near Uthalsar Temple, Uthalsar Nakka, Uthalsar Road, Uthaxlsar Naupada, Thane,400601"],
+        "context_set": ""
+        },
+
+        {"tag": "Kaushalya",
+        "patterns": ["Kaushalya Hospital"],
+        "responses": ["Namdeo Wadi Marg, opp. Nitin Company, Ramabai Ambedkar Nagar, Ganeshwadi, Thane West, Thane, Maharashtra400601"],
+        "context_set": ""
+        },
+
+        {"tag": "Lifelines",
+        "patterns": ["Lifelines Hospital"],
+        "responses": ["1st Floor, Asiatic Arcade, Pokhran Road No 1, Thane West, Naupada, Thane, 400601"],
+        "context_set": ""
+        },
+
+        {"tag": "Nagesh",
+        "patterns": ["Nagesh Hospital"],
+        "responses": ["Amarpali Arcade Shopping Centre, Smt Gladys Alvares Rd, Vasant Vihar Thane West, Thane, 400610"],
+        "context_set": ""
+        },
+
+        {"tag": "Apex Multispeciality",
+        "patterns": ["Apex Multispeciality Hospital"],
+        "responses": ["Shiv Tirth Apartment, Parnaka Road, Kalyan City, Near Trivikram Temp Kalyan, Thane, 421301"],
+        "context_set": "Uday Chawl, Near Rupee Corporate Bank, A K Vaidya Road, Panchpakhadi Naupada, Thane, 400602"
+        },
+
+        {"tag": "Bapat Urology Centre",
+        "patterns": ["Bapat Urology Centre"],
+        "responses": ["Uday Chawl, Near Rupee Corporate Bank, A K Vaidya Road, Panchpakhadi Naupada, Thane, 400602"],
+        "context_set": ""
+        },
+
+        {"tag": "Sai Krisha Maternity Hospital",
+        "patterns": ["Sai Krisha Maternity"],
+        "responses": ["110, Krishna Tower 2nd Floor Above sanman Hotel, Kapurbawdi, Thane West, Thane"],
+        "context_set": ""
+        },
+
+        {"tag": "Accura",
+        "patterns": ["Accura Hospital"],
+        "responses": ["202, Gangaprasad, Ram Ganesh Gadkari Road, Near Saibaba Mandir, Opposite Shraddha vadapav, Ghantali, NaupadaNaupada, Thane, 400602"],
+        "context_set": ""
+        },
+
+        {"tag": "Metropolis Healthcare Ltd",
+        "patterns": ["Metropolis Healthcare Ltd"],
+        "responses": ["203, 2nd Floor, Kriss Corner, Opp to Saraswati Vidyalaya, Near Muchhala College, Anand Nagar, Naupada, Thane,400601"],
+        "context_set": ""
+        },
+
+        {"tag": "Orange",
+        "patterns": ["Orange Hospital"],
+        "responses": ["P 19, MIDC, Behind Sarovar Hotel Boisar, Thane, 401501"],
+        "context_set": ""
+        },
+
+        {"tag": "Shivkala",
+        "patterns": ["Shivkala Hospital"],
+        "responses": ["Shop No 1,3, Anand Tower, Netaji Chowk, Ulhasnagar No 5, Opposite Prabhat Garden Kalyan, Thane, 421005"],
+        "context_set": ""
+        },
+
+        {"tag": "Lifeline",
+        "patterns": ["Lifeline Hospital"],
+        "responses": ["Shop No. 43, 44, 1st Floor, Asiatic Arcade, Pokhran Road No. 1, Vartak Nagar Thane West, Thane, 400606"],
+        "context_set": ""
+        },
+
+        {"tag": "Arati Center",
+        "patterns": ["Arati Center Hospital"],
+        "responses": ["Shop No. 11, Ground Floor, Behind Ramdev Hotel, Zojwala Shopping Centre, Agra Rd, Surganga Society, JijaMataColony, Kalyan West Kalyan, Thane, 421301"],
+        "context_set": ""
+        },
+
+        {"tag": "Pal Pathology Lab",
+        "patterns": ["Pal Pathology Lab"],
+        "responses": ["Narmada Heritage,Ramdev Park, Mira Bhayander, Mira Road (East)"],
+        "context_set": ""
+        },
+
+        {"tag": "Prachi",
+        "patterns": ["Prachi Hospital"],
+        "responses": ["RSGKVR Vidyalaya, Gujarati School, Bail Bazar Chowk, Kalyan West Kalyan, Thane,  421301"],
+        "context_set": ""
+        },
+
+        {"tag": "Jupiter",
+        "patterns": ["Jupiter Hospital"],
+        "responses": ["Smt Gladys Alvares Rd, Vasant Vihar Thane West, Thane, 400610"],
+        "context_set": ""
+        },
+
+        {"tag": "City Dombivali",
+        "patterns": ["City Dombivali Hospital"],
+        "responses": ["1st Floor, Central Plaza, Dombivli West, Above Central Bank Of India, Near Gopi Mall, Vishnu Nagar Dombivali,Thane, 421202"],
+        "context_set": ""
+        },
+
+        {"tag": "Sapphire",
+        "patterns": ["Sapphire Hospital"],
+        "responses": ["Ajit Chamber, Murbad Road, Kalyan City, Opposite Punjab National Bank Kalyan, Thane, 421301"],
+        "context_set": ""
+        },
+
+        {"tag": "Mahesh",
+        "patterns": ["Mahesh Hospital"],
+        "responses": ["Balaji Apartment, 1st Floor, Pune Link Road, Kalyan, Near Tisgao Naka Dombivali, Thane, 421304"],
+        "context_set": ""
+        },
+
+        {"tag": "Fortis Kalyan",
+        "patterns": ["Fortis Kalyan Hospital"],
+        "responses": ["Fortis Shill Road, Bail Bazaar, Kalyan Kalyan, Thane, 421301"],
+        "context_set": ""
+        },
+
+        {"tag": "Vedant GB Road",
+        "patterns": ["Vedant GB Road"],
+        "responses": ["104, Beauty Arcade, Kolbad Road, Opposite Pratap Cinema, Khopat Naupada, Thane, 400601"],
+        "context_set": ""
+        },
+
+        {"tag": "Sapphire manpada",
+        "patterns": ["Sapphire manpada Hospital"],
+        "responses": ["Manpada Road, Tikuji Ni Wadi Rd, Manpada Thane West, Thane, 400607"],
+        "context_set": ""
+        },
+
+        {"tag": "Shree Sai",
+        "patterns": ["Shree Sai Hospital"],
+        "responses": ["209/210, Soham Plaza, Ghodbunder Road, Manpada,Thane West Thane West, Thane, 400607"],
+        "context_set": ""
+        },
+
+        {"tag": "Platinums",
+        "patterns": ["Platinums Hospital"],
+        "responses": ["Shree Sankalp Siddhi Complex, Vasai East, Opposite Range Office, Gokhivre Nala Sopara, Thane, 401208"],
+        "context_set": ""
+        },
+
+        {"tag": "Thane Health Care",
+        "patterns": ["Thane Health Care Hospital"],
+        "responses": ["Sai Prasad Sociman Road, Omkareshwar Marg, Patil Nagar Thane West, Thane, 400606"],
+        "context_set": ""
+        },
+
+        {"tag": "Titan",
+        "patterns": ["Titan Hospital"],
+        "responses": ["Ground floor, Behind Dosa King, Vikas Galaxy, Station Road, Badlapur, Maharashtra, 421503"],
+        "context_set": ""
+        },
+
+        {"tag": "Life Care",
+        "patterns": ["Life Care Hospital"],
+        "responses": ["Sharad Kunj Building, Ground Floor, Dr Moose Road, Behind HDFC Bank, Near Gadkari Rangayatan, Talao PalilNaupada, Thane – 400601"],
+        "context_set": ""
+        },
+
+        {"tag": "Siddhivinayak",
+        "patterns": ["Siddhivinayak Hospital"],
+        "responses": ["Ace Business Centre, Ground Floor, premices no 2,, Near Navneet motors, LBS Road, Gokul Nagar Naupada, Thane,400601"],
+        "context_set": ""
+        },
+
+        {"tag": "Bethany A,  Wing",
+        "patterns": ["Bethany A Wing Hospital"],
+        "responses": ["Unit No 6, 1st Floor, Rahimabad Apartment, Vasai West, Veer Savarkar Nagar, Behind Hotel Vrindhavan & RaymondShowroom Nala Sopara, Thane, 401201"],
+        "context_set": ""
+        },
+
+        {"tag": "Ekta Hopsital LLP & ICCU",
+        "patterns": ["Ekta Hopsital LLP & ICCU"],
+        "responses": ["Patlipada Thane West, Thane, 400607"],
+        "context_set": ""
+        },
+
+        {"tag": "Thane Covid, Global",
+        "patterns": ["Thane Covid Global Hospital"],
+        "responses": ["Pahera Apartment, Thane, 421302"],
+        "context_set": ""
+        },
+
+        {"tag": "Swayam",
+        "patterns": ["Swayam Hospital"],
+        "responses": ["1,A, Ground Floor, Vijay Apartment, K B Patil Road, Thane West, Mulund Check Naka, Kisan Nagar,1, WagleEstate Naupada, Thane, 400604"],
+        "context_set": ""
+        },
+
+        {"tag": "AvenueE Vedant Covid Hospital",
+        "patterns": ["AvenueE Vedant Covid Hospital"],
+        "responses": ["16A, 16B, Soham Plaza, Behind Manpada Bus Stop, Ghodbunder Road, Manpada, Bhavani Nagar, Thane West,, Thane,  400607"],
+        "context_set": ""
+        },
+
+        {"tag": "HIGHLAND HOSPITAL",
+        "patterns": ["HIGHLAND HOSPITAL"],
+        "responses": ["Shop No 3, Minal Chhaya Co,Operative Housing Society, Mahanagarpalika Road, Panch Pakhadi,Thane West, NearSAI Baba Mandir And Nittin Company Naupada, Thane, 400602"],
+        "context_set": ""
+        },
+
+        {"tag": "Viraj Hospital",
+        "patterns": ["Viraj Hospital"],
+        "responses": ["9/10 Ground Floor Swargandha Building, Wagle Industrial Estate, Sector No 1 Near Tata Fashion Thane West,Thane,  400604"],
+        "context_set": ""
+        },
+
+        {"tag": "Vedant Multispeciality Vartak Nagar",
+        "patterns": ["SwaVedant Multispeciality Vartak Nagaryam"],
+        "responses": ["16/A, Ground Floor, Laxmi Market, Vartak Nagar Naka, Pokharan Rd Number 1, Kores, Lokmanya Nagar Thane West,Thane,  400606"],
+        "context_set": ""
+        },
+
+        {"tag": "Kausa Stadium Hospital",
+        "patterns": ["Kausa Stadium Hospital"],
+        "responses": ["Shop No 5, Shree Samarth Krupa Building, Din Dayal Road, Dombivli West, Below SAI Care Hospital Dombivali,Thane,  421202"],
+        "context_set": ""
+        },
+
+        {"tag": "Thane Noble Hospital",
+        "patterns": ["Thane Noble Hospital"],
+        "responses": ["25/26, 1st Floor, C/O Ajit Shopping Centre, Above Shilpa Hotel, Near Teen Petrol Pump & Hariniwas CircleNaupada, Thane,  400601"],
+        "context_set": ""
+        },
+
+        {"tag": "Dmark Medwin Hospital",
+        "patterns": ["Dmark Medwin Hospital"],
+        "responses": ["400SH,13 TO 20, Yash Siddhi Residency, Boisar Palghar Road, Boisar West Boisar, Thane,  401501604"],
+        "context_set": ""
+        },
+
+        {"tag": "Horizon Prime Hospital",
+        "patterns": ["Horizon Prime Hospital"],
+        "responses": ["106/107, 1st Floor, Ashar Commercial Complex, Gladys Alwares Road Naupada, Thane,  400601"],
+        "context_set": ""
+        },
+
+        {"tag": "Kaizen Supermulti Speciality",
+        "patterns": ["Kaizen Supermulti Speciality"],
+        "responses": ["25/26, 1st Floor, C/O Ajit Shopping Centre, Above Shilpa Hotel, Near Teen Petrol Pump & Hariniwas CircleNaupada, Thane,  400601"],
+        "context_set": ""
+        },
+
+        {"tag": "Metropol Hospital",
+        "patterns": ["Metropol Hospital"],
+        "responses": ["F/8, Chandresh Himalaya, Lodha Heaven Nilaje, Kalyan Shilphata Road, Dombivli East, Maharashtra,421204"],
+        "context_set": ""
+        },
+
+        {"tag": "Shivneri Hospital",
+        "patterns": ["Shivneri Hospital"],
+        "responses": ["SHOP NO.1 SAI ASHIRWAD APT,VAITHYWADI RAMCHANDRA NAGAR, WAGLE ESTATE THANE WEST"],
+        "context_set": ""
+        },
+
+        {"tag": "Diya Hospital",
+        "patterns": ["Diya Hospital"],
+        "responses": ["1,A, Ground Floor, Vijay Apartment, K B Patil Road, Thane West, Mulund Check Naka, Kisan Nagar,1, WagleEstate Naupada, Thane,  400604"],
+        "context_set": ""
+        },
+
+        {"tag": "Brahmand Multispeciality Hospital",
+        "patterns": ["Brahmand Multispeciality Hospital"],
+        "responses": ["Shop No. 9/10, Ground Floor, Krishna Tower, Near Hotel Sanman Building, Ghodbunder Road, Kolshet Rd,Kapurbawdi, Kailash Nagar Thane West, Thane,  400607"],
+        "context_set": ""
+        },
+
+        {"tag": "Parking Plaza Hospital",
+        "patterns": ["Parking Plaza Hospital"],
+        "responses": ["Shop No.7, Om Bhairavi Apt, Besides Samrat Hotel, Pandit Deendayal Road, Dombivli Dombivali, Thane,  421202"],
+        "context_set": ""
+        },
+
+        {"tag": "Rohini Hospital",
+        "patterns": ["Rohini Hospital"],
+        "responses": ["Shop No 11/12 Mahaganga, Tilak Road, Near Brahman Sabha & Sarvesh Hall, Opposite Municipal School, DombivaliDombivali, Thane,  421201"],
+        "context_set": ""
+        },
+
+        {"tag": "Pristine Hospital",
+        "patterns": ["Pristine Hospital"],
+        "responses": [" C 102, saidham tower, Achole road, Nallasopara East Nala Sopara, Thane,  401209"],
+        "context_set": ""
+        },
+
+        {"tag": "Swastik Hospital",
+        "patterns": ["Swastik Hospital"],
+        "responses": ["9/10 Ground Floor Swargandha Building, Wagle Industrial Estate, Sector No 1 Near Tata Fashion Thane West,Thane,  400604"],
+        "context_set": ""
+        },
+
+        {"tag": "Wellam Hospital",
+        "patterns": ["Wellam Hospital"],
+        "responses": ["Deepjyot appt, shop no 16! Ambawadi, Tulinj road, Nalasopara East, Opposite divine school Nala Sopara, Thane,401209"],
+        "context_set": ""
+        },
+
+        {"tag": "OSCAR Multispecility Hospital",
+        "patterns": ["OSCAR Multispecility Hospital"],
+        "responses": ["Shop No 1, Akhil Society, Adarsh Road, Badlapur, Near Talathi Office Badlapur, Thane, 421503"],
+        "context_set": ""
+        },
+
+        {"tag": "Ace Hospital (Dhanvantari Hospital)",
+        "patterns": ["Ace Dhanvantari Hospital)"],
+        "responses": ["Near Bajar Peth, Behind TJSB Bank, Hendrepada Road, Badlapur West Badlapur, Thane, 421503"],
+        "context_set": ""
+        },
+
+        {"tag": "Aarogya Hospital Kharegoan Kalwa",
+        "patterns": ["Aarogya Hospital Kharegoan Kalwa"],
+        "responses": ["Ace Business Centre, Ground Floor, premices no 2, Near Navneet motors, LBS Road, Gokul Nagar Naupada, Thane, 400601"],
+        "context_set": ""
+        },
+
+        {"tag": "Park Way Titan Hospital",
+        "patterns": ["Park Way Titan Hospital"],
+        "responses": ["Ground Floor, Tara Niwas, Baji Prabhu Deshpande Marg, Thane West, 3 Petrol Pump, Near Brahman VidyalayaNaupada, Thane, 400602"],
+        "context_set": ""
+        },
+
+        {"tag": "Orthocare hospital",
+        "patterns": ["Orthocare hospital"],
+        "responses": ["Shop No 25, Ground Floor, Rajdeep Co,op Hsg. Soc.Naupada, Naupada, Thane, 400602"],
+        "context_set": ""
+        },
+
+        {"tag": "Aditya Hospital And ICU",
+        "patterns": ["Aditya Hospital And ICU"],
+        "responses": ["103, Panvelkar Plaza, Station Road, Ambernath East, Opposite Dombivali Nagrik Bank Badlapur, Thane,  421506"],
+        "context_set": ""
+        },
+
+        {"tag": "Aarogyam multispecialitie hospital kopri",
+        "patterns": ["Aarogyam multispecialitie hospital kopri"],
+        "responses": ["P 19, MIDC, Behind Sarovar Hotel Boisar, Thane,  401501"],
+        "context_set": ""
+        },
+
+        {"tag": "Hare Krishna Manav",
+        "patterns": ["Hare Krishna Manav"],
+        "responses": ["1st Floor, Asiatic Arcade, Pokhran Road No 1, Thane West, Naupada, Thane, 400601"],
+        "context_set": ""
+        },
+
+        {"tag": "Siddhivinayak Hospital Extension",
+        "patterns": ["Siddhivinayak Hospital Extension"],
+        "responses": ["B,102, Gautam Tower, Gokhale Road, Thane West, Maharashtra Opposite Tribhovandas Jewellery Naupada, Thane,400602"],
+        "context_set": ""
+        },
+
+        {"tag": "Neon Hospital",
+        "patterns": ["Neon Hospital"],
+        "responses": ["Shop No.1, Unnathi woods, Village Kavesara1, Anand Nagar, Thane (W)- 400615"],
+        "context_set": ""
+        },
+
+        {"tag": "Hargun Health Care",
+        "patterns": ["Hargun Health Care"],
+        "responses": ["Behind Mbmc Head Off Stan Road Bhy west Bhayander West Health Post"],
+        "context_set": ""
+        },
+
+        {"tag": "Criticare Lifeline Hospital",
+        "patterns": ["Criticare Lifeline Hospital"],
+        "responses": ["Next to Wockhardt Hospital, Haidri Chowk Mirared (E) Mira Road Health Post"],
+        "context_set": ""
+        },
+
+        {"tag": "Lake City Hospital",
+        "patterns": ["Lake City Hospital"],
+        "responses": ["Poonam sagar Rd,Next To Municiple hosp Mira Road East"],
+        "context_set": ""
+        },
+
+        {"tag": "Bijankur Hospital Multispeciality And Critical Care Centre",
+        "patterns": ["Bijankur Hospital Multispeciality And Critical Care Centre"],
+        "responses": ["Plot No 1, Nawre Nagar Road, Near Anand Park Badlapur, Thane,  421501"],
+        "context_set": ""
+        },
+
+        {"tag": "Seven Square Hospital",
+        "patterns": ["Seven Square Hospital"],
+        "responses": ["Deepak Hospital Road, Seven Square School, Mira Road (E) Ideal Park"],
+        "context_set": ""
+        },
+
+        {"tag": "MBMC CVC 1 POSSA HOSPITAL",
+        "patterns": ["MBMC CVC 1 POSSA HOSPITAL"],
+        "responses": ["Light House, DevTalao, Uttan, Bhayander (W)"],
+        "context_set": ""
+        },
+
+        {"tag": "MBMC CVC 2 NEW SAI GANGA HOSPITAL",
+        "patterns": ["MBMC CVC 2 NEW SAI GANGA HOSPITAL"],
+        "responses": ["101 PandurangKrupa Near Hanuman temple, Navghar Road Bhaindar (E)"],
+        "context_set": ""
+        },
+
+        {"tag": "MBMC CVC 3 MEDITECH HOSPITAL",
+        "patterns": ["MBMC CVC 3 MEDITECH HOSPITAL"],
+        "responses": ["Classic Country, Near Shahi Hotel, Opp. Old Petrol Pump, Mira Bhayander Road, Miraroad (E)"],
+        "context_set": ""
+        },
+
+        {"tag": "MBMC CVC 4 GALAXY HOSPITAL",
+        "patterns": ["MBMC CVC 4 GALAXY HOSPITAL"],
+        "responses": ["Bldg No. 4, Vasudev Arcade, Kankia Road, ahead of Cinemax, Mira Bhainder Road, Miraroad E"],
+        "context_set": ""
+        },
+
+        {"tag": "MBMC CVC 5 SHAH LIFELINE HOSPITAL",
+        "patterns": ["MBMC CVC 5 SHAH LIFELINE HOSPITAL"],
+        "responses": ["Geeta Nagar, Phase,7, Mira Bhayander Road, Near Fly Over Bridge, Miraroad E"],
+        "context_set": ""
+        },
+
+        {"tag": "MBMC CVC 6 FAMILY CARE HOSPITAL",
+        "patterns": ["MBMC CVC 6 FAMILY CARE HOSPITAL"],
+        "responses": ["Opp Seven SqureAcadamy. P.K Road Mira Bhaindar Cross road Mira Raod (E)"],
+        "context_set": ""
+        },
+
+        {"tag": "MBMC CVC 7 SHALOM HOSPITAL",
+        "patterns": ["MBMC CVC 7 SHALOM HOSPITAL"],
+        "responses": ["Shalom Ark, Indralok Complex, Phase,VI, Opp. Raj Classic, Bhaindar (E.)"],
+        "context_set": ""
+        },
+
+        {"tag": "MBMC CVC 8 ST. ANN'S HOSPITAL",
+        "patterns": ["MBMC CVC 8 ST. ANN'S HOSPITAL"],
+        "responses": ["102/107, kashimira, W.E Highway, P.O Mira Raod"],
+        "context_set": ""
+        },
+
+        {"tag": "MBMC CVC 10 HITANKSHI HOSPITAL",
+        "patterns": ["MBMC CVC 10 HITANKSHI HOSPITAL"],
+        "responses": ["Raj Oaks CHS LTD, 404,403,402,401, Near Don Dosco School, MTNL Road, Shanti Park, Miraroad E"],
+        "context_set": ""
+        },
+
+        {"tag": "CVC 13 STELLA MARRIES HOSPITAL",
+        "patterns": ["CVC 13 STELLA MARRIES HOSPITAL"],
+        "responses": ["Uttan, Post. Uttan, Bhainder (W.)"],
+        "context_set": ""
+        },
+
+        {"tag": "MBMC CVC 17 DHANVANTARI MANAV KALYAN HOSPITAL",
+        "patterns": ["MBMC CVC 17 DHANVANTARI MANAV KALYAN HOSPITAL"],
+        "responses": ["Ganesh Tower, B.P Road, Kharigaon Naka, Bhayandar East 401107"],
+        "context_set": ""
+        },
+
+        {"tag": "MBMC CVC 18 SAMARTH HOSPITAL",
+        "patterns": ["MBMC CVC 18 SAMARTH HOSPITAL"],
+        "responses": ["Flat 101/104,202 Shop No.103, Ashadeep CHS. Silver Park,Opp.Vijay Sales Mira Road (E)"],
+        "context_set": ""
+        },
+
+        {"tag": "MBMC CVC 14 GURUKRUPA HOSPITAL",
+        "patterns": ["MBMC CVC 14 GURUKRUPA HOSPITAL"],
+        "responses": ["Savitri Apt., 1st Floor, B.P.Road, Opp. KashiBhavan, Bhayander (E.) – 401 105"],
+        "context_set": ""
+        },
+
+        {"tag": "MHATRE HOSPITAL",
+        "patterns": ["MHATRE HOSPITAL"],
+        "responses": ["Mathura Niwas, Opp. Kakad Paradise, Penkarpada, Miraroad(E)"],
+        "context_set": ""
+        },
+
+        {"tag": "MBMC CVC 16 MANAVATA HOSPITAL",
+        "patterns": ["MBMC CVC 16 MANAVATA HOSPITAL"],
+        "responses": ["1st floor, Kalpita Apt, Opp NKGSB bank, Navghar Road, Bhyandar E"],
+        "context_set": ""
+        },
+
+        {"tag": "Apollo Hospitals Enterprise Ltd",
+        "patterns": ["Apollo Hospitals Enterprise Ltd"],
+        "responses": ["Shop No 12, Soham Plaza, Manpada, Thane(W),  Manpada, Thane,  400607"],
+        "context_set": ""
+        },
+
+        {"tag": "Aditi Hospital",
+        "patterns": ["Aditi Hospital"],
+        "responses": ["2nd Floor, Krishna Tower, G B Road, Thane(W),  Manpada, Thane,  400607"],
+        "context_set": ""
+        },
+
+        {"tag": "Jeevandeep Hospital And Critical Care Centre",
+        "patterns": ["Jeevandeep Hospital And Critical Care Centre"],
+        "responses": ["Laxmi Darshan, Shrikhande Wadi, Manpada Cross Road, Dombivali West, Thane, 421202"],
+        "context_set": ""
+        },
+
+        {"tag": "Damdekar Hosptal",
+        "patterns": ["Damdekar Hosptal"],
+        "responses": ["B Wing, 1St Floor, Kasturi Plaza, Manpada Road, Dombivili East, Thane, 421203"],
+        "context_set": ""
+        },
+
+        {"tag": "shree sai hospital",
+        "patterns": ["shree sai hospital"],
+        "responses": ["Bhavani Nagar, Manpada, Thane West, Thane"],
+        "context_set": ""
+        },
+
+        {"tag": "Dr Praveen Gokhales Childrens Clinic and Vaccination Centre",
+        "patterns": ["Dr Praveen Gokhales Childrens Clinic and Vaccination Centre"],
+        "responses": ["Manpada, Thane West, Thane"],
+        "context_set": ""
+        },
+
+        {"tag": "Karkhanis Super Speciality Hospital",
+        "patterns": ["Karkhanis Super Speciality Hospital"],
+        "responses": ["Tikuji Ni Wadi Road, Manpada, Thane West, Thane"],
+        "context_set": ""
+        },
+
+        {"tag": "Arogyadham Hospital",
+        "patterns": ["Arogyadham Hospital"],
+        "responses": ["Sahayog Complex, Near MTNL Office, Tikuji Ni Wadi Road, Manpada, Thane West, Thane"],
+        "context_set": ""
+        },
+
+        {"tag": "Metro Hospital",
+        "patterns": ["Metro Hospital"],
+        "responses": ["Tikuji Ni Wadi Road, Manpada, Thane West, Thane"],
+        "context_set": ""
+        },
+
+        {"tag": "Metro Hospital",
+        "patterns": ["Metro Hospital"],
+        "responses": ["202, 2nd Floor, Soham Plaza, Tikuji Ni Wadi Road, Manpada, Near Manpada Junction, Thane West, Thane"],
+        "context_set": ""
+        },
+
+        {"tag": "Trupti Maternity General Hospital",
+        "patterns": ["Trupti Maternity General Hospital"],
+        "responses": ["D, Nebula, 1St Floor, Cosmos Paradise, Opposite Devaya Nagar, Pokhran Road, Thane,  400606"],
+        "context_set": ""
+        },
+
+        {"tag": "Gurukrupa Hospital",
+        "patterns": ["Gurukrupa Hospital"],
+        "responses": ["Savitri Apartment, Opposite Kashi Bhavan, B P Road, Khari Village, Bhayandar, Mumbai"],
+        "context_set": ""
+        },
+
+        {"tag": "Sapphire Hospital",
+        "patterns": ["Sapphire Hospital"],
+        "responses": ["Manpada Road, Tikuji Ni Wadi Road, Manpada, Thane West, Thane"],
+        "context_set": ""
+        },
+
+        {"tag": "Bhanushali Hospital",
+        "patterns": ["Bhanushali Hospital"],
+        "responses": ["Kaushalya Shivaji Path, 400601, Manpada, Thane West, Thane"],
+        "context_set": ""
+        },
+
+        {"tag": "Siddharth Hospital",
+        "patterns": ["Siddharth Hospital"],
+        "responses": ["Near Manpada Flyover, Manpada, Thane West, Thane"],
+        "context_set": ""
+        },
+
+        {"tag": "Shree Shidhivinayek",
+        "patterns": ["Shree Shidhivinayek"],
+        "responses": ["Shankar Mandir, Kolshet Road, Manorama Nagar, Thane West, Thane"],
+        "context_set": ""
+        },
+
+        {"tag": "Hiranandani Hospital",
+        "patterns": ["Hiranandani Hospital"],
+        "responses": ["Hamilton B, Hiranandani Estate, Patlipada, Off Ghodbunder Road, Manpada, Thane, 400604"],
+        "context_set": ""
+        },
+
+        {"tag": "Jeevan Sahara Kendra (Bethany Trust Lok Hospital)",
+        "patterns": ["Jeevan Sahara Kendra Bethany Trust Lok Hospital"],
+        "responses": ["Lok Hospital Building, Smt. Gladys Alvares Marg, Near Ashar Residency, Thane"],
+        "context_set": ""
+        },
+
+        {"tag": "Thane Mahanagar Hospital",
+        "patterns": ["Thane Mahanagar Hospital"],
+        "responses": ["Patlipada, Thane West, Thane"],
+        "context_set": ""
+        },
+
+        {"tag": "DR KANDOI ASHIRWAD HOSPITAL",
+        "patterns": ["DR KANDOI ASHIRWAD HOSPITAL"],
+        "responses": ["S.V.P.Road, Ambarnath"],
+        "context_set": ""
+        }       
+]      
+}

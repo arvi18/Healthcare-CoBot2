@@ -1,0 +1,10 @@
+.vscode/
+checkpoint
+model.tflearn.data-00000-of-00001
+model.tflearn.index
+model.tflearn.meta
+training_data
+venv_tf-cpu
+.git
+data.pickle
+tflearn_logs/
