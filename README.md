@@ -8,5 +8,4 @@ This chatbot was aimed at providing covid hospitals data from 5 cities in mahara
 
 This chatbot is developed using
 1. Tensorflow
-2. Deep learning
-kinda AI stuff
+2. tflearn
